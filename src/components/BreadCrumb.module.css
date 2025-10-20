@@ -1,0 +1,17 @@
+.breadcrumb {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    padding: var(--spacing-xs) 0;
+    margin-bottom: var(--spacing-md);
+}
+.breadcrumb a.active{
+    color: var(--text-dark);
+    font-weight: 500;
+}
+.breadcrumb .current {
+    color: var(--text-dark);
+    font-weight: 500;
+}
+.separator{
+    margin-inline:var(--spacing-xs) ;
+}

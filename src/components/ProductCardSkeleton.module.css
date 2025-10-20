@@ -1,0 +1,82 @@
+.product-card-skeleton {
+  padding: var(--spacing-md);
+  background: var(--background-muted);
+  border-radius: var(--border-radius-l);
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+}
+
+.skeleton-image {
+  width: 100%;
+  aspect-ratio: 400 / 600; /* Match the actual image aspect ratio */
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  border-radius: var(--border-radius-md);
+  margin-bottom: var(--spacing-md);
+  animation: skeleton-shimmer 2s infinite;
+}
+
+.skeleton-title {
+  height: 1.5rem; /* Match h3 default height */
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  border-radius: var(--border-radius-sm);
+  animation: skeleton-shimmer 2s infinite;
+  width: 85%;
+  margin-bottom: var(--spacing-sm);
+}
+
+.skeleton-description {
+  height: 1rem; /* Match paragraph default height */
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  border-radius: var(--border-radius-sm);
+  animation: skeleton-shimmer 2s infinite;
+  width: 100%;
+  margin-bottom: var(--spacing-sm);
+}
+
+.skeleton-price {
+  height: 2rem; /* Match the 2rem font-size from .product-price */
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  border-radius: var(--border-radius-sm);
+  animation: skeleton-shimmer 2s infinite;
+  width: 50%;
+}
+
+@keyframes skeleton-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .skeleton-image {
+    aspect-ratio: 320 / 480; /* Match mobile image aspect ratio */
+  }
+  
+  .skeleton-title {
+    height: 1.25rem; /* Slightly smaller for mobile */
+  }
+  
+  .skeleton-description {
+    height: 0.875rem; /* Slightly smaller for mobile */
+  }
+  
+  .skeleton-price {
+    height: 1.75rem; /* Slightly smaller for mobile */
+  }
+}

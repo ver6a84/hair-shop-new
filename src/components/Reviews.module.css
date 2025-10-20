@@ -1,0 +1,142 @@
+.reviews-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.reviews-heading h1 {
+  line-height: 1;
+  font-size: 24px;
+}
+
+.add-review-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-sm);
+  background: black;
+  border-radius: var(--border-radius-md);
+  color: white;
+  cursor: pointer;
+}
+
+.review-form-wrapper {
+  position: fixed;
+  width: 330px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--background-muted);
+  padding: var(--spacing-lg);
+  z-index: 20;
+  border-radius: var(--border-radius-md);
+}
+
+.review-form-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.review-form-heading h2 {
+  line-height: 1;
+}
+
+.close-review-form {
+  cursor: pointer;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-form input,
+.review-form textarea {
+  margin-bottom: var(--spacing-lg);
+}
+
+.review-form button {
+  background: black;
+  color: white;
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-sm);
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing-lg);
+}
+
+.star {
+  cursor: pointer;
+  font-size: 28px;
+  margin-right: 6px;
+  color: #ccc;
+  transition: color 0.25s ease;
+}
+
+.star.active {
+  color: orange;
+}
+
+.review-item {
+  background: var(--background-muted);
+  margin-bottom: var(--spacing-xl);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.rating-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-name {
+  font-weight: 700;
+}
+
+.rating-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alert-message {
+  background: var(--primary-light);
+  width: 60%;
+  padding: var(--spacing-xs);
+  text-align: center;
+  border-radius: var(--border-radius-sm);
+}
+
+@media (min-width: 768px) {
+  .review-form-wrapper {
+    width: 450px;
+  }
+
+  .review-item {
+    flex-direction: row;
+    gap: var(--spacing-md);
+  }
+
+  .rating-name {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 220px;
+  }
+
+  .reviews-name {
+    padding-left: var(--spacing-xs);
+  }
+
+  .rating-date {
+    align-items: flex-start;
+  }
+}

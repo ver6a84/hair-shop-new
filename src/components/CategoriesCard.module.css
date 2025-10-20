@@ -1,0 +1,58 @@
+/* Mobile-first Offers Card */
+.offers-card{
+  background: var(--background-muted);;
+  border-radius: var(--border-radius-l);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.offers-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background: rgba(253, 246, 236, 0.5);
+}
+
+.card-image{
+  width: 60%;
+  height: 100%;
+}
+
+.card-title{
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.card-text{
+  padding: 0 1rem 1rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Tablet and Desktop */
+@media (min-width: 768px) {
+  .offers-card {
+    padding: 1.5rem;
+  }
+  
+  .card-image {
+    width: 70%;
+  
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .card-text {
+    padding: 0 16px 16px 16px;
+    font-size: 1rem;
+  }
+}

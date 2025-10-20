@@ -1,0 +1,138 @@
+.footer {
+  background: var(--background-dark);
+  color: var(--text-light);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ffffff;
+  gap: var(--spacing-lg);
+  padding-block: var(--spacing-sm) !important;
+}
+
+.logo-social {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin: 0 -10px;
+}
+
+.footer-logo img {
+  height: 60px;
+}
+
+.logo-text {
+  text-align: center;
+  height: 38px;
+  color: var(--primary-color);
+}
+
+.store-name {
+  font-size: 0.8rem;
+  line-height: 1.1;
+  font-weight: 900;
+  border-bottom: 1px solid var(--primary-color);
+  letter-spacing: 2px;
+}
+
+.logo-text span {
+  display: block;
+  font-size: 0.5rem;
+  line-height: 1.2;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  width: 100%;
+}
+
+.products-help {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xxl);
+  width: 100%;
+}
+
+.products-help h4 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.products-help ul li {
+  line-height: 2;
+}
+
+.feedback {
+  background-color: rgba(253, 246, 236, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-sm);
+}
+
+.feedback h3 {
+  color: var(--text-light);
+}
+
+.feedback-link {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+.feedback-link:hover {
+  color: var(--primary-dark);
+}
+
+.list-item {
+  color: white;
+}
+
+.products li a,
+.help li a {
+  color: var(--text-light);
+}
+
+.products li a:hover,
+.help li a:hover {
+  color: var(--text-muted);
+}
+
+.copyright {
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  line-height: 1;
+  padding-block: var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+  .social {
+    width: 200px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .products-help {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .products-feedback {
+    flex-direction: row-reverse;
+  }
+}

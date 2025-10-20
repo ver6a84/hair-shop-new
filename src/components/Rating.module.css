@@ -1,0 +1,27 @@
+.average-rating-reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.average-rating {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+  cursor: default;
+}
+
+.rating-stars {
+  color: orange;
+  font-size: 20px;
+}
+
+.rating-numbers {
+  font-size: 20px;
+}
+
+.reviews-count {
+  cursor: pointer;
+  text-decoration: underline;
+}
