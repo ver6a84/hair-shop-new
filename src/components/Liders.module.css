@@ -1,0 +1,10 @@
+.lidersGrid{
+	display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-xxl);
+  margin-bottom: var(--spacing-xxl);
+}
+.lidersWrap h1{
+	text-align: center;
+	 margin-bottom: var(--spacing-xxl);
+}

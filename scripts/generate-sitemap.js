@@ -1,8 +1,32 @@
 
 import fs from 'fs';
 import path from 'path';
-import { ROUTES, CATEGORIES_URLS } from '@/utils/constants.js';
-import { baseUrl } from '@/api/index.js';
+
+const PRODUCT_CATEGORIES = {
+  WIGS: 1,
+  TAILS: 2,
+  TOPPERS: 3
+};
+
+const baseUrl = 'https://api.perukytyt.com/v1'
+
+const CATEGORIES_URLS = {
+  [PRODUCT_CATEGORIES.WIGS]: 'wigs',
+  [PRODUCT_CATEGORIES.TAILS]: 'tails',
+  [PRODUCT_CATEGORIES.TOPPERS]: 'toppers'
+};
+
+const ROUTES = {
+  HOME: '/',
+  PRODUCTS: '/products',
+  CART: '/cart',
+  ABOUT: '/about',
+  CONTACT: '/contact',
+  CONTACT_US: '/contact_us',
+  DELIVERY: '/delivery',
+  RETURN: '/return',
+  CARE: '/care'
+}
 
 const BASE_URL = 'https://perukytut.com.ua';
 

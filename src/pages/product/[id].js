@@ -74,7 +74,7 @@ export default function ProductPage({ product }) {
         image: currentVariant.images[0],
         article: product.article,
         quantity,
-        color:currentVariant.color
+        color: currentVariant.color
       }
       addToCart(productData)
       setAddToCartStatus('success')
@@ -86,114 +86,140 @@ export default function ProductPage({ product }) {
     }
   }
 
+  const schemaProduct = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": product.display_name,
+    "image": getImageUrlByKey(currentVariant.images?.[0], { width: 600, height: 900 }),
+    "brand": {
+      "@type": "Brand",
+      "name": "ПЕРУКИ ТУТ"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "UAH",
+      "price": currentVariant.promo_price,
+      "availability": currentVariant.availability
+        ? "https://schema.org/InStock"
+        : "https://schema.org/OutOfStock",
+      "url": `https://perukytut.com.ua/product/${product.id}`
+    }
+  }
+
   return (
     <>
       <Head>
         <title>{product.display_name} | Наш магазин</title>
-        <meta name="description" content={product.description?.slice(0, 160)} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaProduct) }}
+        />
       </Head>
 
       <div className={`${styles['product-detail']} container`}>
-  <div className={styles['product-content']}>
-    <div className={styles['product-images']}>
-      <div className={styles['main-image']}>
-        <Slider
-          key={selectedVariant}
-          dots
-          infinite
-          speed={500}
-          slidesToShow={1}
-          slidesToScroll={1}
-          arrows
-          afterChange={(index) => setActiveImageIndex(index)}
-          fade
-        >
-          {currentVariant.images.map((imgKey, index) => (
-            <div key={`slide-${index}`}>
-              <Image
-                src={getImageUrlByKey(imgKey, { width: 600, height: 900, quality: 100 })}
-                alt={product.display_name}
-                width={600}
-                height={900}
-                sizes="(max-width: 600px) 160px, 300px"
-                style={{ width: '100%', height: 'auto', maxWidth: '500px', borderRadius: '16px' }}
-              />
-            </div>
-          ))}
-        </Slider>
-      </div>
-
-      {product.variants.length > 1 && (
-        <div className={styles['variant-selector-wrapper']}>
-          <div
-            className={`${styles['variant-thumbnails-product']} ${product.variants.length < 5 ? styles['centered'] : ''}`}
-            ref={variantsRef}
-          >
-            {product.variants.map((variant, index) => (
-              <button
-                key={`thumb-${variant.id}`}
-                className={`${styles['variant-thumbnail-product']} ${selectedVariant === index ? styles['active'] : ''} ${!variant.availability ? styles['unavailable'] : ''}`}
-                onClick={() => setSelectedVariant(index)}
-                disabled={!variant.availability}
-                title={variant.color}
+        <div className={styles['product-content']}>
+          <div className={styles['product-images']}>
+            <div className={styles['main-image']}>
+              <Slider
+                key={selectedVariant}
+                dots
+                infinite
+                speed={500}
+                slidesToShow={1}
+                slidesToScroll={1}
+                arrows
+                afterChange={(index) => setActiveImageIndex(index)}
+                fade
               >
-                <Image
-                  src={getImageUrlByKey(variant.images[0], { width: 80, height: 80, quality: 80 })}
-                  alt={`${product.display_name} - ${variant.color}`}
-                  width={80}
-                  height={80}
-                />
-              </button>
-            ))}
+                {currentVariant.images.map((imgKey, index) => (
+                  <div key={`slide-${index}`}>
+                    <Image
+                      src={getImageUrlByKey(imgKey, { width: 600, height: 900, quality: 100 })}
+                      alt={product.display_name}
+                      width={600}
+                      height={900}
+                      sizes="(max-width: 600px) 160px, 300px"
+                      style={{ width: '100%', height: 'auto', maxWidth: '500px', borderRadius: '16px' }}
+                      loading='lazy'
+                    />
+                  </div>
+                ))}
+              </Slider>
+            </div>
+
+            {product.variants.length > 1 && (
+              <div className={styles['variant-selector-wrapper']}>
+                <div
+                  className={`${styles['variant-thumbnails-product']} ${product.variants.length < 5 ? styles['centered'] : ''}`}
+                  ref={variantsRef}
+                >
+                  {product.variants.map((variant, index) => (
+                    <button
+                      key={`thumb-${variant.id}`}
+                      className={`${styles['variant-thumbnail-product']} ${selectedVariant === index ? styles['active'] : ''} ${!variant.availability ? styles['unavailable'] : ''}`}
+                      onClick={() => setSelectedVariant(index)}
+                      disabled={!variant.availability}
+                      title={variant.color}
+                    >
+                      <Image
+                        src={getImageUrlByKey(variant.images[0], { width: 80, height: 80, quality: 80 })}
+                        alt={`${product.display_name} - ${variant.color}`}
+                        width={80}
+                        height={80}
+                        loading='lazy'
+                      />
+                    </button>
+                  ))}
+                </div>
+
+                {product.variants.length > 5 && (
+                  <div className={styles['variants-select-btn']}>
+                    <div onClick={scrollLeft} className={styles['btn-prev']}>
+                      <Icon name="arrow_left" />
+                    </div>
+                    <div onClick={scrollRight} className={styles['btn-prev']}>
+                      <Icon name="arrow_right" />
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
 
-          {product.variants.length > 5 && (
-            <div className={styles['variants-select-btn']}>
-              <div onClick={scrollLeft} className={styles['btn-prev']}>
-                <Icon name="arrow_left" />
+          <div className={styles['product-info']}>
+            <div className={styles['characteristic']}>
+              <Breadcrumb categoryId={product.category} productName={product.display_name} />
+              <h2>{product.display_name}</h2>
+              <p className={styles['article']}>Артикул: {product.article}</p>
+              <a href="#reviews"><Rating product_id={product.id} /></a>
+
+              <div className={styles['promo']}>
+                <p className={styles['old-price']}>{currentVariant.price} грн</p>
+                <p className={styles['discount']}>
+                  {Math.round(((currentVariant.promo_price - currentVariant.price) / currentVariant.price) * 100)}%
+                </p>
               </div>
-              <div onClick={scrollRight} className={styles['btn-prev']}>
-                <Icon name="arrow_right" />
+              <p className={styles['price']}>{currentVariant.promo_price} грн</p>
+
+              <div className={styles['product-specs']}>
+                <p><strong>Тип волосся:</strong> {HAIR_TYPES_TRANSLATIONS[product.type]}</p>
+                <p><strong>Довжина:</strong> {hairLengthLabel}</p>
+                <p><strong>Колір:</strong> {currentVariant.color}</p>
+                <p><strong>Наявність:</strong> {currentVariant.availability ? 'Є в наявності' : 'Немає в наявності'}</p>
               </div>
+              <p className={styles['description']}>{product.description}</p>
             </div>
-          )}
-        </div>
-      )}
-    </div>
 
-    <div className={styles['product-info']}>
-      <div className={styles['characteristic']}>
-        <Breadcrumb categoryId={product.category} productName={product.display_name} />
-        <h2>{product.display_name}</h2>
-        <p className={styles['article']}>Артикул: {product.article}</p>
-        <a href="#reviews"><Rating product_id={product.id} /></a>
-
-        <div className={styles['promo']}>
-          <p className={styles['old-price']}>{currentVariant.price} грн</p>
-          <p className={styles['discount']}>
-            {Math.round(((currentVariant.promo_price - currentVariant.price) / currentVariant.price) * 100)}%
-          </p>
-        </div>
-        <p className={styles['price']}>{currentVariant.promo_price} грн</p>
-
-        <div className={styles['product-specs']}>
-          <p><strong>Тип волосся:</strong> {HAIR_TYPES_TRANSLATIONS[product.type]}</p>
-          <p><strong>Довжина:</strong> {hairLengthLabel}</p>
-          <p><strong>Колір:</strong> {currentVariant.color}</p>
-          <p><strong>Наявність:</strong> {currentVariant.availability ? 'Є в наявності' : 'Немає в наявності'}</p>
-        </div>
-        <p className={styles['description']}>{product.description}</p>
-      </div>
-
-      <div className={styles['cart-options']}>
-        <div className={styles['quantity-selector']}>
-          <label>Кількість:</label>
-          <div className={styles['quantity-controls']}>
-            <button onClick={() => setQuantity(Math.max(1, quantity - 1))}>
-              <Icon name="minus" size={12} />
-            </button>
-            <span>{quantity}</span>
-            <button onClick={() => setQuantity(quantity + 1)}>
+            <div className={styles['cart-options']}>
+              <div className={styles['quantity-selector']}>
+                <label>Кількість:</label>
+                <div className={styles['quantity-controls']}>
+                  <button onClick={() => setQuantity(Math.max(1, quantity - 1))}>
+                    <Icon name="minus" size={12} />
+                  </button>
+                  <span>{quantity}</span>
+                  <button
+              onClick={() => setQuantity(quantity + 1)}>
               <Icon name="plus" size={12} />
             </button>
           </div>

@@ -1,4 +1,4 @@
-import { HAIR_LENGTHS } from '../utils/constants.js'
+import { HAIR_LENGTHS,LIDER_IDS } from '../utils/constants.js'
 
 export const baseUrl = 'https://api.perukytyt.com/v1'
 export const itemsPerPage = 10
@@ -31,7 +31,8 @@ export const getProducts = async ({
   minPrice,
   maxPrice,
   page = 1,
-  sortOrder = null
+  sortOrder = null,
+  ids = null
 }) => {
   const response = await fetch(`${baseUrl}/products`, {
     method: 'GET',
@@ -47,6 +48,7 @@ export const getProducts = async ({
   const normalizedLength = Array.isArray(length) ? length.map(l => l.trim().toUpperCase()) : []
 
   const filtered = products
+  
     .filter(product => !category || category === product.category)
     .filter(product => !normalizedType.length || normalizedType.includes(String(product.type)))
     .filter(product => {
@@ -103,4 +105,20 @@ export const getProduct = async (id) => {
   const data = await response.json();
   const products = data.products;
   return products.find(p => p.id === id) || null;
+};
+
+export const getLiderProducts = async () => {
+  const response = await fetch(`${baseUrl}/products`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  });
+
+  const data = await response.json();
+  const products = Array.isArray(data.products) ? data.products : [];
+
+  const liderProducts = products.filter(p => LIDER_IDS.includes(p.id));
+
+  return liderProducts;
 };

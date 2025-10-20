@@ -41,7 +41,7 @@ export default function ProductCard({ product }) {
               height={600}
               sizes="(max-width: 600px) 160px, 300px"
               className={styles['product-main-image']}
-              priority
+              loading='lazy'
             />
             <div className={styles['product-material']}>
               {HAIR_TYPES_TRANSLATIONS[product.type]}

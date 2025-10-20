@@ -19,6 +19,7 @@ export default function CategoriesCard({ categoryId }) {
         height={768}
         loading="lazy"
         sizes="(max-width: 190px) 48px, 190px"
+      
       />
       <h2 className={styles['card-title']}>{title}</h2>
     </Link>

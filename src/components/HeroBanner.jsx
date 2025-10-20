@@ -11,6 +11,7 @@ export default function HeroBanner() {
         height={1080}
         sizes="(max-width: 640px) 160px, 640px"
         className={styles['hero-image']}
+        loading='lazy'
       />
       <div className={styles.greetings}>
         <h1 className={styles['greetings-title']}>

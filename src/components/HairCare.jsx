@@ -13,6 +13,7 @@ export default function HairCare() {
 					height={600}
 					sizes="(max-width: 400px) 100px, 400px"
 					className={styles['card-image']}
+					loading='lazy'		
 				/>
 				<h3>Як доглядати за перуками та робити укладку</h3>
 				<Link className={styles['hair-care-link']} href="/care">Детальніше</Link>
