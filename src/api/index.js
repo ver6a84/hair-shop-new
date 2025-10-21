@@ -22,7 +22,7 @@ export const getProducts = async ({
   if (maxPrice) queryParams.append('maxPrice', maxPrice);
   if (page) queryParams.append('page', page);
   if (sortOrder) queryParams.append('sortOrder', sortOrder);
-  
+  if (ids) queryParams.append('ids', ids);
   const response = await fetch(`${baseUrlV2}/products?${queryParams.toString()}`, {
     method: 'GET',
     headers: {

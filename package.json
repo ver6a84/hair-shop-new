@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build",
     "build:cloudflare": "next build",
     "start": "next start",
     "generate-sitemap": "node scripts/generate-sitemap.js",
-    "preview": "opennextjs-cloudflare build:cloudflare && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build:cloudflare && opennextjs-cloudflare deploy"
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
