@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useSearchParams } from 'next/navigation'
+import { useFilterState, useFilterActions } from '@/context'
 import {
   CATEGORIES_TRANSLATIONS,
   PRODUCT_CATEGORIES,
@@ -17,15 +17,8 @@ import styles from '@/styles/pages.module.css'
 import Link from 'next/link'
 
 export default function Products({ products, totalPages, selectedCategory }) {
-  const searchParams = useSearchParams()
-
-  const lengthParam = searchParams.get('length') || ''
-  const typeParam = searchParams.get('type') || ''
-  const pageParam = searchParams.get('page') || '1'
-
-  const lengthFilters = lengthParam.split(',').filter(Boolean)
-  const typeFilters = typeParam.split(',').filter(Boolean)
-  const page = Number(pageParam)
+  const { selectedType, selectedLength, currentPage } = useFilterState()
+  const { buildFilterUrl } = useFilterActions()
 
   const safeProducts = Array.isArray(products) ? products : []
 
@@ -38,14 +31,6 @@ export default function Products({ products, totalPages, selectedCategory }) {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  const buildFilterUrl = ({ length, type, page }) => {
-    const params = new URLSearchParams()
-    if (length.length) params.set('length', length.join(','))
-    if (type.length) params.set('type', type.join(','))
-    params.set('page', String(page))
-    return `/products/${CATEGORIES_URLS[selectedCategory]}?${params.toString()}`
-  }
-
   return (
     <div className={`${styles['category-page']} container`}>
       <h1>{CATEGORIES_TRANSLATIONS[selectedCategory]}</h1>
@@ -54,14 +39,14 @@ export default function Products({ products, totalPages, selectedCategory }) {
 
       <div className={`${styles['custom-filters']} ${selectedCategory !== PRODUCT_CATEGORIES.WIGS ? styles.hidden : ''}`}>
         {['SHORT', 'MEDIUM', 'LONG'].map(length => {
-          const isSelected = lengthFilters.includes(length)
+          const isSelected = selectedLength.includes(length)
           const newLengths = isSelected
-            ? lengthFilters.filter(l => l !== length)
-            : [...lengthFilters, length]
+            ? selectedLength.filter(l => l !== length)
+            : [...selectedLength, length]
 
           const href = buildFilterUrl({
             length: newLengths,
-            type: typeFilters,
+            type: selectedType,
             page: 1
           })
 
@@ -93,7 +78,7 @@ export default function Products({ products, totalPages, selectedCategory }) {
       </div>
 
       <Pagination
-        currentPage={page}
+        currentPage={currentPage}
         totalPages={totalPages}
         selectedCategory={selectedCategory}
       />

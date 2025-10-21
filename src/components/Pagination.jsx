@@ -2,22 +2,17 @@
 
 import styles from './Pagination.module.css'
 import Icon from './icon'
-import { useRouter, useSearchParams } from 'next/navigation'
-import { CATEGORIES_URLS } from '@/utils/constants'
+import { useFilters } from '@/context'
 
 export default function Pagination({ currentPage, totalPages, selectedCategory }) {
-  const router = useRouter()
-  const searchParams = useSearchParams()
-  const slug = CATEGORIES_URLS[selectedCategory]
+  const { setPage } = useFilters()
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const goToPage = (page) => {
-    const params = new URLSearchParams(searchParams.toString())
-    params.set('page', page.toString())
-    router.push(`/products/${slug}?${params.toString()}`)
+    setPage(page)
     scrollToTop()
   }
 
