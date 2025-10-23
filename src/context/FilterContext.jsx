@@ -52,25 +52,27 @@ export function FilterProvider({ children }) {
   }, [searchParams])
 
   // Update URL when filters change
-  const updateQuery = (updates) => {
-    const params = new URLSearchParams(searchParams.toString())
+  const updateQuery = (updates, resetPage = true) => {
+  const params = new URLSearchParams(searchParams.toString())
 
-    Object.entries(updates).forEach(([key, value]) => {
-      if (Array.isArray(value)) {
-        value.length ? params.set(key, value.join(',')) : params.delete(key)
-      } else if (value !== null && value !== undefined && value !== '') {
-        params.set(key, String(value))
-      } else {
-        params.delete(key)
-      }
-    })
+  Object.entries(updates).forEach(([key, value]) => {
+    if (Array.isArray(value)) {
+      value.length ? params.set(key, value.join(',')) : params.delete(key)
+    } else if (value !== null && value !== undefined && value !== '') {
+      params.set(key, String(value))
+    } else {
+      params.delete(key)
+    }
+  })
 
-    // Always reset to page 1 when filters change
+  if (resetPage) {
     params.set('page', '1')
     setCurrentPage(1)
-    
-    router.push(`${pathname}?${params.toString()}`)
   }
+
+  router.push(`${pathname}?${params.toString()}`)
+}
+
 
   // Filter actions
   const toggleType = (type) => {

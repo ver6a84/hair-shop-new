@@ -21,6 +21,8 @@ export default function Filters({ selectedCategory }) {
     toggleType,
     toggleLength,
     applyPriceFilter,
+    clearPriceFilter, 
+
     
     // UI Actions
     toggleFiltersOpen,
@@ -40,6 +42,11 @@ export default function Filters({ selectedCategory }) {
   const handleApplyPriceFilter = () => {
     applyPriceFilter(localMinPrice, localMaxPrice)
   }
+const handleClearPriceFilter = () => {
+  clearPriceFilter()
+  setLocalMinPrice('')
+  setLocalMaxPrice('')
+}
 
   return (
     <div className={styles.filters}>
@@ -88,7 +95,10 @@ export default function Filters({ selectedCategory }) {
         <div className={styles['filter-price']}>
           <div className={styles['price-heading']}>
             <h2>Ціна</h2>
-            <div className={styles['price-options-btn']} onClick={togglePriceOpen}>
+            <div className={styles['price-options-btn']} onClick={ () =>{
+              togglePriceOpen()
+              handleClearPriceFilter()
+              }}>
               <Icon name="arrow_down" />
             </div>
           </div>
