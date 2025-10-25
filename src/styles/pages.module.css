@@ -824,3 +824,16 @@
 .care-page {
   margin-bottom: var(--spacing-xl);
 }
+
+.colorsWrapper{
+  margin-bottom: var(--border-radius-xl);
+}
+.colorsWrapper h2{
+  text-align: center;
+  margin: var(--spacing-md) 0;
+}
+.colorsWrapper li{
+  padding-left: var(--spacing-lg);
+  position: relative;
+}
+

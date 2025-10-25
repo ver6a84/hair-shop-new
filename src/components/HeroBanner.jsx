@@ -1,16 +1,16 @@
-import Image from 'next/image'
+
 import styles from './HeroBanner.module.css'
 
 export default function HeroBanner() {
   return (
     <section className={styles.hero}>
-      <Image
-        src="/hero_image.webp"
+       <img
+        src={'./hero_image_mob.webp'}
+        srcSet={'./hero_image.webp 1920w, ./hero_image_mob.webp 640w'}
+        sizes='(max-width: 640px) 160px, 640px'
         alt="Hero"
         width={1920}
         height={1080}
-        sizes="(max-width: 640px) 160px, 640px"
-        className={styles['hero-image']}
         loading='lazy'
       />
       <div className={styles.greetings}>

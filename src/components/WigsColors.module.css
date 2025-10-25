@@ -1,27 +1,29 @@
-.hair-care {
+.wigs-colors {
   margin-bottom: var(--spacing-xxl);
 }
 
-.hair-care-img {
+.wigs-colors-img {
   position: relative;
   border-radius: var(--border-radius-lg);
   overflow: hidden;
+	width: 100%;
 }
 
-.hair-care-img img {
+.wigs-colors-img img {
   height: 100%;
   width: 100%;
 }
 
-.hair-care-img h3 {
+.wigs-colors-img h3 {
   position: absolute;
   top: 0.5rem;
-  left: 1rem;
   color: var(--primary-light);
-  text-align: center;
+	text-wrap: nowrap;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
-.hair-care-link {
+.wigs-colors-link {
   position: absolute;
   display: flex;
   bottom: 1rem;
@@ -35,12 +37,12 @@
   justify-content: center;
 }
 
-.hair-care-link:hover {
+.wigs-colors-link:hover {
   transform: translateY(2px);
 }
 
 @media (min-width: 768px) {
-  .hair-care-img h3 {
+  .wigs-colors-img h3 {
     font-size: 2rem;
     top: 1rem;
     left: 50%;
@@ -48,7 +50,7 @@
     text-wrap: nowrap;
   }
 
-  .hair-care-link {
+  .wigs-colors-link {
     font-size: 1.5rem;
     bottom: 2rem;
     right: 2rem;

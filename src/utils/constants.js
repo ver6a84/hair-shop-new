@@ -24,8 +24,8 @@ const HAIR_TYPES = {
 };
 
  export const HAIR_LENGTHS = {
-  SHORT: [0, 15],
-  MEDIUM: [16, 30],
+  SHORT: [0, 20],
+  MEDIUM: [21, 30],
   LONG: [31, 100]
 };
 
@@ -73,7 +73,8 @@ export const ROUTES = {
   CONTACT_US: '/contact_us',
   DELIVERY: '/delivery',
   RETURN: '/return',
-  CARE: '/care'
+  CARE: '/care',
+  COLORS: '/colors'
 }
 
 export const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID

@@ -4,6 +4,7 @@ import HairCare from '@/components/HairCare'
 import Head from 'next/head'
 import Liders from '@/components/Liders'
 import { getLiderProducts } from '@/api'
+import WigsColors from '@/components/WigsColors'
 
 export async function getServerSideProps() {
   const liderProducts = await getLiderProducts();
@@ -27,6 +28,9 @@ export default function Home({ liderProducts }) {
 			</section>
 			<section id="care">
   		<HairCare />
+			</section>
+			<section id="colors">
+  		<WigsColors />
 			</section>
 			</>
 	)

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { getProduct } from '@/api'
 import { useState, useRef, useEffect } from 'react'
 import { getImageUrlByKey } from '@/api/images'
@@ -133,15 +132,20 @@ export default function ProductPage({ product }) {
               >
                 {currentVariant.images.map((imgKey, index) => (
                   <div key={`slide-${index}`}>
-                    <Image
-                      src={getImageUrlByKey(imgKey, { width: 600, height: 900, quality: 100 })}
-                      alt={product.display_name}
-                      width={600}
-                      height={900}
-                      sizes="(max-width: 600px) 160px, 300px"
-                      style={{ width: '100%', height: 'auto', maxWidth: '500px', borderRadius: '16px' }}
-                      loading='lazy'
-                    />
+                    <img
+          src={getImageUrlByKey(imgKey, { width: 600, height: 900, quality: 100 })}
+          srcSet={`
+            ${getImageUrlByKey(imgKey, { width: 320, height: 480, quality: 100 })} 320w,
+            ${getImageUrlByKey(imgKey, { width: 600, height: 900, quality: 100 })} 600w
+          `}
+          sizes="(max-width: 600px) 160px, 300px"
+          width={600}
+          height={900}
+          alt={product.display_name}
+          style={{ width: "100%", height: "auto", maxWidth: "500px", borderRadius: "16px" }}
+          loading="lazy"
+          decoding="async"
+        />
                   </div>
                 ))}
               </Slider>
@@ -161,13 +165,11 @@ export default function ProductPage({ product }) {
                       disabled={!variant.availability}
                       title={variant.color}
                     >
-                      <Image
-                        src={getImageUrlByKey(variant.images[0], { width: 80, height: 80, quality: 80 })}
-                        alt={`${product.display_name} - ${variant.color}`}
-                        width={80}
-                        height={80}
-                        loading='lazy'
-                      />
+                      <img
+                    src={getImageUrlByKey(variant.images[0], { width: 80, height: 80, quality: 100 })}
+                    alt={`${product.display_name} - ${variant.color}`}
+                    loading="lazy"
+                  />
                     </button>
                   ))}
                 </div>

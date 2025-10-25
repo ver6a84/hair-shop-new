@@ -8,7 +8,7 @@ import phone from '@/assets/icons/phone.svg'
 import mail from '@/assets/icons/mail.svg'
 import telegram from '@/assets/icons/telegram.svg'
 import viber from '@/assets/icons/viber.svg'
-import facebook from '@/assets/icons/facebook.svg'
+import facebook from '@/assets/icons/Facebook.svg'
 import copyright from '@/assets/icons/copyright.svg'
 import location from '@/assets/icons/location.svg'
 import calendar from '@/assets/icons/calendar.svg'
@@ -23,6 +23,7 @@ import arrowRight from '@/assets/icons/right.svg'
 import plus from '@/assets/icons/plus.svg'
 import minus from '@/assets/icons/minus.svg'
 import plus_white from '@/assets/icons/plus_white.svg'
+import instagram from '@/assets/icons/Instagram.svg'
 
 const icons = {
   burger,
@@ -48,6 +49,7 @@ const icons = {
   plus,
   minus,
   plus_white,
+  instagram,
 }
 
 export default function Icon({ name, size = 24, ...props }) {

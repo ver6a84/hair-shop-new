@@ -25,6 +25,12 @@ export default function Footer() {
             <a href="mailto:perukitut@gmail.com">
               <Icon size={36} className={styles['social-icon']} name="mail" />
             </a>
+            <a href="https://www.instagram.com/perukytut">
+              <Icon size={36} className={styles['social-icon']} name="instagram" />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61582294457333">
+              <Icon size={36} className={styles['social-icon']} name="facebook" />
+            </a>
           </div>
         </div>
 

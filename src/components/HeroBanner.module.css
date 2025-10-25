@@ -20,7 +20,7 @@
   height: 100%;
 }
 .greetings-title{
-  font-size: clamp(1.7rem, 3vw, 4rem);
+  font-size: clamp(2rem, 3vw, 4rem);
 }
 .greetings-text,
 .greetings-subtitle{

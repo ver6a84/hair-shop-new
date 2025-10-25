@@ -22,6 +22,7 @@ export default function Filters({ selectedCategory }) {
     toggleLength,
     applyPriceFilter,
     clearPriceFilter, 
+    clearFilters,
 
     
     // UI Actions
@@ -43,9 +44,7 @@ export default function Filters({ selectedCategory }) {
     applyPriceFilter(localMinPrice, localMaxPrice)
   }
 const handleClearPriceFilter = () => {
-  clearPriceFilter()
-  setLocalMinPrice('')
-  setLocalMaxPrice('')
+
 }
 
   return (
@@ -97,7 +96,9 @@ const handleClearPriceFilter = () => {
             <h2>Ціна</h2>
             <div className={styles['price-options-btn']} onClick={ () =>{
               togglePriceOpen()
-              handleClearPriceFilter()
+              clearPriceFilter()
+              setLocalMinPrice('')
+              setLocalMaxPrice('')
               }}>
               <Icon name="arrow_down" />
             </div>
@@ -109,8 +110,19 @@ const handleClearPriceFilter = () => {
                   id="min-price"
                   step="100"
                   type="number"
+                  max={99999}
                   value={localMinPrice}
-                  onChange={(e) => setLocalMinPrice(e.target.value)}
+                  onChange={(e) => {
+                  const raw = e.target.value;
+                  if (raw === "") {
+                    setLocalMinPrice(""); 
+                  } else {
+                    const value = Number(raw);
+                    if (value <= 99999) {
+                      setLocalMinPrice(value);
+                    }
+                  }
+                }}
                 />
                 <span className={styles.at}>від</span>
               </label>
@@ -119,9 +131,20 @@ const handleClearPriceFilter = () => {
                 <input
                   id="max-price"
                   step="100"
+                  max={99999}
                   type="number"
                   value={localMaxPrice}
-                  onChange={(e) => setLocalMaxPrice(e.target.value)}
+                  onChange={(e) => {
+                  const raw = e.target.value;
+                  if (raw === "") {
+                    setLocalMaxPrice(""); 
+                  } else {
+                    const value = Number(raw);
+                    if (value <= 99999) {
+                      setLocalMaxPrice(value);
+                    }
+                  }
+                }}
                 />
                 <span className={styles.to}>до</span>
               </label>
@@ -167,9 +190,17 @@ const handleClearPriceFilter = () => {
             </li>
           </ul>
         </div>
-
+        <div className={styles.filtersBtn}>
+        <div className={styles['reset-btn']} onClick={() => {
+          clearFilters()
+          setLocalMinPrice('')
+          setLocalMaxPrice('')
+          }}>
+          СКИНУТИ ФІЛЬТРИ
+        </div>      
         <div className={styles['apply-btn']} onClick={toggleFiltersOpen}>
-          Застосувати фільтри
+          ЗАСТОСУВАТИ ФІЛЬТРИ
+        </div>
         </div>
       </div>
     </div>

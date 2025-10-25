@@ -2,7 +2,6 @@
 
 import { useState, useRef } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import styles from './ProductCard.module.css'
 import { getImageUrlByKey } from '@/api/images'
 import { HAIR_TYPES_TRANSLATIONS } from '@/utils/constants'
@@ -34,14 +33,19 @@ export default function ProductCard({ product }) {
       <div className={styles['product-image-container']}>
         <Link href={`/product/${product.id}`} className={styles['product-card-link']}>
           <div className={styles['main-image-wrapper']}>
-            <Image
-              src={getImageUrlByKey(selected.images[0], { width: 400, height: 600, quality: 100 })}
-              alt={product.display_name}
-              width={400}
-              height={600}
-              sizes="(max-width: 600px) 160px, 300px"
-              className={styles['product-main-image']}
-              loading='lazy'
+            <img
+              src={getImageUrlByKey(product.variants[selectedVariant].images[0], { width: 400, height: 600, quality: 100 })}
+            srcSet={`
+              ${getImageUrlByKey(product.variants[selectedVariant].images[0], { width: 320, height: 480, quality: 100 })} 320w,
+              ${getImageUrlByKey(product.variants[selectedVariant].images[0], { width: 600, height: 900, quality: 100 })} 600w
+            `}
+            sizes="(max-width: 600px) 160px, 300px"
+            width={400}
+            height={600}
+            alt={product.display_name}
+            loading="lazy"
+            decoding="async"
+            className={styles['product-main-image']}
             />
             <div className={styles['product-material']}>
               {HAIR_TYPES_TRANSLATIONS[product.type]}
@@ -63,12 +67,10 @@ export default function ProductCard({ product }) {
                   tabIndex="-1"
                   aria-label={`Варіант ${index + 1}`}
                 >
-                  <Image
-                    src={getImageUrlByKey(variant.images[0], { width: 60, height: 60, quality: 80 })}
-                    alt={product.display_name}
-                    title={variant.color}
-                    width={60}
-                    height={60}
+                 <img
+                    src={getImageUrlByKey(variant.images[0], { width: 60, height: 60, quality: 100 })}
+                    alt={`${product.display_name} variant ${index + 1}`}
+                    title={`${variant.color}`}
                     loading="lazy"
                   />
                 </button>
