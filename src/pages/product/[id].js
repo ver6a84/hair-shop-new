@@ -60,7 +60,12 @@ export default function ProductPage({ product }) {
 
   const currentVariant = product.variants[selectedVariant]
   const hairLengthKey = getHairLengthKey(product.length)
-  const hairLengthLabel = hairLengthKey ? HAIR_LENGTHS_TRANSLATIONS[hairLengthKey] : 'Невідомо'
+  const hairLengthLabel =
+  product.length >= 21
+    ? `${product.length} см`
+    : hairLengthKey
+    ? HAIR_LENGTHS_TRANSLATIONS[hairLengthKey]
+    : 'Невідомо';
 
   const handleAddToCart = () => {
     try {
@@ -108,7 +113,7 @@ export default function ProductPage({ product }) {
   return (
     <>
       <Head>
-        <title>{product.display_name} | Наш магазин</title>
+        <title>{product.display_name} купити Україна | Перуки ТУТ</title>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaProduct) }}
