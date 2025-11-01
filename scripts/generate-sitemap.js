@@ -31,7 +31,7 @@ const ROUTES = {
 const BASE_URL = 'https://perukytut.com.ua';
 
 const staticUrls = Object.values(ROUTES);
-const categoryUrls = Object.values(CATEGORIES_URLS).map(slug => `/category/${slug}`);
+const categoryUrls = Object.values(CATEGORIES_URLS).map(slug => `/products/${slug}`);
 
 const getAllProducts = async () => {
   const response = await fetch(`${baseUrl}/products`, {
