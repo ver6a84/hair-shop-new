@@ -71,7 +71,7 @@ export const ROUTES = {
   ABOUT: '/about',
   CONTACT: '/contact',
   CONTACT_US: '/contact_us',
-  DELIVERY: '/delivery',
+  DELIVERY: '/delivery-ukraine',
   RETURN: '/return',
   CARE: '/care',
   COLORS: '/colors'

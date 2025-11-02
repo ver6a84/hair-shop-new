@@ -21,6 +21,7 @@ import 'slick-carousel/slick/slick-theme.css'
 export async function getServerSideProps(context) {
   const { id } = context.params
   const product = await getProduct(id)
+ 
 
   if (!product) {
     return { notFound: true }
@@ -113,7 +114,7 @@ export default function ProductPage({ product }) {
   return (
     <>
       <Head>
-        <title>{product.display_name} купити Україна | Перуки ТУТ</title>
+        <title>{product.display_name} купити Україна | Доставка по всій Україні |  Перуки Тут - натуральні та синтетичні перуки,аксесуари</title>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaProduct) }}

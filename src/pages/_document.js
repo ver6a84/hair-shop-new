@@ -6,8 +6,8 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Інтернет-магазин перук — натуральні та штучні моделі зі швидкою доставкою по Україні. Вінниця." />
-        <meta name="keywords" content="перуки, інтернет-магазин, купити перуку, перуки Вінниця, перуки Україна, натуральні перуки, штучні перуки, вибрати перуку, доставка перук" />
+        <meta name="description" content="Інтернет-магазин перук — натуральні та штучні моделі зі швидкою доставкою по Україні."/>
+        <meta name="keywords" content="перуки, інтернет-магазин, купити перуку, перуки Україна, натуральні перуки, штучні перуки, вибрати перуку, доставка перук" />
         <meta name="author" content="Перуки Тут" />
         <meta name="robots" content="index,follow" />
         <meta name="theme-color" content="#d4c4b4" />
@@ -15,8 +15,8 @@ export default function Document() {
 
 
         <meta property="og:site_name" content="Перуки Тут" />
-        <meta property="og:title" content="Купити перуку | Натуральні та синтетичні перуки – Перуки Тут" />
-        <meta property="og:description" content="Якісні перуки та аксесуари для волосся. Відкрийте для себе наш широкий асортимент преміальних перук та сучасних синтетичних альтернатив. Інтернет-магазин. Доставка по Україні. Вінниця." />
+        <meta property="og:title" content="Купити перуку | Доставка по всій Україні |  Перуки Тут - натуральні та синтетичні перуки,аксесуари" />
+        <meta property="og:description" content="Якісні перуки та аксесуари для волосся. Відкрийте для себе наш широкий асортимент преміальних перук та сучасних синтетичних альтернатив. Інтернет-магазин. Доставка по Україні." />
         <meta property="og:image" content="/hero_image.webp" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -35,7 +35,7 @@ export default function Document() {
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
 
         
-        <title>Купити перуку | Натуральні та синтетичні перуки – Перуки Тут</title>
+        <title>Купити перуку | Доставка по всій Україні |  Перуки Тут - натуральні та синтетичні перуки,аксесуари</title>
 
 
         <script
@@ -46,12 +46,19 @@ export default function Document() {
               "@type": "LocalBusiness",
               "name": "ПЕРУКИ ТУТ",
               "url": "https://perukytut.com.ua",
+              "description": "перуки Україна, доставка по Україні, купити перуку онлайн",
+              "keywords": "купити перуку Україна, доставка перук по Україні",
+              "@id": "https://perukytut.com.ua",
               "telephone": "+380932054774",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "проспект Коцюбинського, 13",
                 "addressLocality": "Вінниця",
                 "addressCountry": "UA"
+              },
+              "areaServed": {
+              "@type": "Country",
+              "name": "Україна"
               },
               "openingHours": "Tu-Su 09:00-16:00"
             })
@@ -65,7 +72,14 @@ export default function Document() {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "ПЕРУКИ ТУТ",
-              "url": "https://perukytut.com.ua"
+              "url": "https://perukytut.com.ua",
+              "description": "перуки Україна, доставка по Україні, купити перуку онлайн",
+              "keywords": "купити перуку Україна, доставка перук по Україні",
+              "@id": "https://perukytut.com.ua",
+              "sameAs": [
+              "https://www.instagram.com/perukytut",
+              "https://www.facebook.com/profile.php?id=61582294457333"
+              ]
             })
           }}
         />
@@ -87,22 +101,22 @@ export default function Document() {
                 {
                   "@type": "ListItem",
                   "position": 2,
-                  "name": "Перуки",
+                  "name": "Каталог",
                   "item": "https://perukytut.com.ua/products"
                 },
                 {
                   "@type": "ListItem",
                   "position": 3,
-                  "name": "Перука блонд 27",
+                  "name": "Перуки",
                   "item": "https://perukytut.com.ua/products/wigs"
                 }
               ]
             })
           }}
         />
-
-
-        <script
+          
+          
+          <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -110,7 +124,14 @@ export default function Document() {
               "@type": "Organization",
               "name": "ПЕРУКИ ТУТ",
               "url": "https://perukytut.com.ua",
-              "logo": "https://perukytut.com.ua/logo.webp"
+              "logo": "https://perukytut.com.ua/logo.webp",
+              "description": "перуки Україна, доставка по Україні, купити перуку онлайн",
+              "keywords": "купити перуку Україна, доставка перук по Україні",
+              "@id": "https://perukytut.com.ua",
+              "sameAs": [
+              "https://www.instagram.com/perukytut",
+              "https://www.facebook.com/profile.php?id=61582294457333"
+              ]
             })
           }}
         />

@@ -98,8 +98,8 @@ export function FilterProvider({ children }) {
     setMinPrice(min)
     setMaxPrice(max)
     updateQuery({
-      minPrice: min.trim(),
-      maxPrice: max.trim()
+      minPrice: min,
+      maxPrice: max
     })
   }
 

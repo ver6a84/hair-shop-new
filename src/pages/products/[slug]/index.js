@@ -19,7 +19,7 @@ export async function getServerSideProps(context) {
   }
 }
 
-// ✅ Це React-компонент, і він обов'язково має бути default export
+
 export default function ProductsPage(props) {
   return <Products {...props} />
 }

@@ -21,6 +21,9 @@
   cursor: pointer;
 }
 
+.add-review-btn .review-label {
+  display: none;
+}
 .review-form-wrapper {
   position: fixed;
   width: 330px;
@@ -139,4 +142,12 @@
   .rating-date {
     align-items: flex-start;
   }
+   .add-review-btn .review-label {
+    display: inline;
+  }
+  .add-review-btn .review-icon {
+    display: none;
+  }
 }
+
+

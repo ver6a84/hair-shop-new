@@ -5,7 +5,6 @@ import { useFilterState, useFilterActions } from '@/context'
 import {
   CATEGORIES_TRANSLATIONS,
   PRODUCT_CATEGORIES,
-  CATEGORIES_URLS,
   HAIR_LENGTHS_TRANSLATIONS
 } from "@/utils/constants"
 import Breadcrumb from "./BreadCrumb"

@@ -21,6 +21,9 @@ export default function HeroBanner() {
           <h2 className={styles['greetings-subtitle']}>
             Якісні перуки та аксесуари для волосся
           </h2>
+          <h3 className={styles['greetings-subtitle']}>
+            Доставляємо перуки по всій Україні
+          </h3>
           <p className={styles['greetings-text']}>
             Відкрийте для себе наш широкий асортимент преміальних перук та сучасних синтетичних альтернатив
           </p>

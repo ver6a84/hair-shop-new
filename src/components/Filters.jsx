@@ -43,10 +43,6 @@ export default function Filters({ selectedCategory }) {
   const handleApplyPriceFilter = () => {
     applyPriceFilter(localMinPrice, localMaxPrice)
   }
-const handleClearPriceFilter = () => {
-
-}
-
   return (
     <div className={styles.filters}>
       <div className={styles['filters-btn-wrapper']} onClick={toggleFiltersOpen}>

@@ -4,7 +4,7 @@ import { useState, useRef } from 'react'
 import Link from 'next/link'
 import styles from './ProductCard.module.css'
 import { getImageUrlByKey } from '@/api/images'
-import { HAIR_TYPES_TRANSLATIONS } from '@/utils/constants'
+import { HAIR_TYPES_TRANSLATIONS, CATEGORIES_URLS } from '@/utils/constants'
 import Icon from './icon'
 import Rating from '@/components/Rating.jsx'
 
@@ -28,10 +28,15 @@ export default function ProductCard({ product }) {
 
   const selected = product.variants[selectedVariant]
 
+  const categorySlug = CATEGORIES_URLS[product.category] || 'wigs'
+
   return (
     <div className={styles['product-card']}>
       <div className={styles['product-image-container']}>
-        <Link href={`/product/${product.id}`} className={styles['product-card-link']}>
+        <Link 
+        href={`/products/${categorySlug}/${product.id}`} 
+        className={styles['product-card-link']}
+        >
           <div className={styles['main-image-wrapper']}>
             <img
               src={getImageUrlByKey(product.variants[selectedVariant].images[0], { width: 400, height: 600, quality: 100 })}
@@ -92,11 +97,11 @@ export default function ProductCard({ product }) {
       </div>
 
       <div className={styles['product-card-content']}>
-        <Link href={`/product/${product.id}`} className={styles['product-card-link']}>
-          <Rating product_id={product.id} />
-        </Link>
-
-        <Link href={`/product/${product.id}`} className={styles['product-card-link']}>
+       <Rating product_id={product.id} />
+       <Link 
+        href={`/products/${categorySlug}/${product.id}`} 
+        className={styles['product-card-link']}
+        >
           <h3>{product.display_name}</h3>
         </Link>
 

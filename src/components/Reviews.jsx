@@ -15,7 +15,6 @@ export default function Reviews({ product_id }) {
   const [isFormAddReview, setIsFormAddReview] = useState(false)
   const [alertMessage, setIsAlertMessage] = useState('')
   const [hoveredStar, setHoveredStar] = useState(null)
-  const [isDesktop, setIsDesktop] = useState(typeof window !== 'undefined' ? window.innerWidth > 768 : true)
   const reviewsRef = useRef(null)
   const [currentPage, setCurrentPage] = useState(1)
   const pageSize = 4
@@ -39,12 +38,6 @@ export default function Reviews({ product_id }) {
       reviewsRef.current?.scrollIntoView({ behavior: 'smooth' })
     }
   }, [scrollTo])
-
-  useEffect(() => {
-    const handleResize = () => setIsDesktop(window.innerWidth > 768)
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
 
   useEffect(() => {
     if (alertMessage) {
@@ -109,13 +102,16 @@ export default function Reviews({ product_id }) {
     <div className={styles['reviews-wrapper']}>
       <div className={styles['reviews-heading']}>
         <h2>Відгуки клієнтів</h2>
-        <div
-          className={styles['add-review-btn']}
-          title="Додати відгук"
-          onClick={() => setIsFormAddReview(true)}
-        >
-          {isDesktop ? 'ЗАЛИШИТИ ВІДГУК' : <Icon name="plus_white" />}
-        </div>
+        <div className={styles['add-review-btn']} title="Додати відгук" onClick={() => setIsFormAddReview(true)}>
+  <span className={styles['review-label']}>
+    ЗАЛИШИТИ ВІДГУК
+  </span>
+  <span className={styles['review-icon']}>
+    <Icon name="plus_white" />
+  </span>
+</div>
+
+
       </div>
 
       {isFormAddReview && (

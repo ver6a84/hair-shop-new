@@ -19,13 +19,13 @@ const CATEGORIES_URLS = {
 const ROUTES = {
   HOME: '/',
   PRODUCTS: '/products',
-  CART: '/cart',
   ABOUT: '/about',
   CONTACT: '/contact',
   CONTACT_US: '/contact_us',
-  DELIVERY: '/delivery',
+  DELIVERY: '/delivery-ukraine',
   RETURN: '/return',
-  CARE: '/care'
+  CARE: '/care',
+  COLORS: '/colors'
 }
 
 const BASE_URL = 'https://perukytut.com.ua';
@@ -62,12 +62,15 @@ const getAllProducts = async () => {
     <priority>0.8</priority>
   </url>`);
 
-    const productXml = products.map(p => `
+   const productXml = products.map(p => {
+  const slug = CATEGORIES_URLS[p.category];
+  return `
   <url>
-    <loc>${BASE_URL}/product/${p.id}</loc>
+    <loc>${BASE_URL}/products/${slug}/${p.id}</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>`);
+  </url>`;
+});
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
