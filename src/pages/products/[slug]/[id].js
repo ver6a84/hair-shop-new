@@ -107,7 +107,7 @@ export default function ProductPage({ product }) {
       "availability": currentVariant.availability
         ? "https://schema.org/InStock"
         : "https://schema.org/OutOfStock",
-      "url": `https://perukytut.com.ua/product/${product.id}`
+      "url": `https://perukytut.com.ua/products/${categorySlug}/${product.id}`
     }
   }
 
