@@ -8,6 +8,7 @@ import Breadcrumb from '@/components/BreadCrumb'
 import Slider from 'react-slick'
 import Reviews from '@/components/Reviews'
 import Rating from '@/components/Rating'
+import { useSearchParams, usePathname, useParams } from 'next/navigation'
 import {
   HAIR_TYPES_TRANSLATIONS,
   HAIR_LENGTHS,
@@ -38,7 +39,8 @@ export default function ProductPage({ product }) {
   const [addToCartStatus, setAddToCartStatus] = useState(null)
   const variantsRef = useRef(null)
   const { addToCart } = useCart()
-  const [activeImageIndex, setActiveImageIndex] = useState(0)
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const { slug: categorySlug } = useParams();
 
   useEffect(() => {
     setActiveImageIndex(0)
