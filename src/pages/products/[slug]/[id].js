@@ -11,7 +11,8 @@ import Rating from '@/components/Rating'
 import {
   HAIR_TYPES_TRANSLATIONS,
   HAIR_LENGTHS,
-  HAIR_LENGTHS_TRANSLATIONS
+  HAIR_LENGTHS_TRANSLATIONS,
+  CATEGORIES_URLS
 } from '@/utils/constants'
 import styles from '@/styles/pages.module.css'
 import '@/components/ProductCardSkeleton.module.css'
@@ -90,6 +91,8 @@ export default function ProductPage({ product }) {
       setTimeout(() => setAddToCartStatus(null), 5000)
     }
   }
+
+  const categorySlug = CATEGORIES_URLS[product.category] || 'wigs'
 
   const schemaProduct = {
     "@context": "https://schema.org",
