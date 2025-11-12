@@ -41,7 +41,6 @@ export default function ProductPage({ product }) {
   const variantsRef = useRef(null)
   const { addToCart } = useCart()
   const [activeImageIndex, setActiveImageIndex] = useState(0);
-  const { slug: categorySlug } = useParams();
 
   useEffect(() => {
     setActiveImageIndex(0)
