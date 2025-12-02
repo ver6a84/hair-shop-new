@@ -81,7 +81,8 @@ export default function ProductPage({ product }) {
         image: currentVariant.images[0],
         article: product.article,
         quantity,
-        color: currentVariant.color
+        color: currentVariant.color,
+        category: product.category
       }
       addToCart(productData)
       setAddToCartStatus('success')

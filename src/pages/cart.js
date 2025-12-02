@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { useState, useRef } from 'react'
 import Icon from '@/components/icon'
 import styles from '@/styles/pages.module.css'
-import { SERVICE_ID, TEMPLATE_ID_ORDER, PUBLIC_KEY } from '@/utils/constants'
+import { SERVICE_ID, TEMPLATE_ID_ORDER, PUBLIC_KEY, CATEGORIES_URLS } from '@/utils/constants'
 import emailjs from '@emailjs/browser'
 
 export default function CartPage() {
@@ -18,7 +18,7 @@ export default function CartPage() {
     updateQuantity,
     clearCart,
   } = useCart()
-
+  
   const [showModal, setShowModal] = useState(false)
   const contactForm = useRef()
   const [alert, setAlert] = useState(null)
@@ -83,8 +83,7 @@ export default function CartPage() {
       setIsSending(false)
     }
   }
-
-
+  
   return (
     <div className={`${styles['cart-page']} container`}>
       <h1>Кошик</h1>
@@ -96,7 +95,7 @@ export default function CartPage() {
           <div className={styles['cart-items']}>
             {cartItems.map(item => (
               <div key={item.id} className={styles['cart-item']}>
-                <Link href={`/product/${item.product_id}`}>
+                <Link href={`/products/${CATEGORIES_URLS[item.category]}/${item.product_id}`}>
                   <img
                     className={styles['cart-img']}
                     src={getImageUrlByKey(item.image, { width: 100, height: 150, quality: 50 })}
