@@ -3,8 +3,19 @@ import '@/styles/index.css'
 import '@/styles/variables.css'
 import '@/styles/reset.css'
 import Script from 'next/script'
+import { useEffect, useState } from 'react'
+import PromoModal from '@/components/PromoModal'
 
 export default function MyApp({ Component, pageProps }) {
+  const [showModal, setShowModal] = useState(false);
+  
+  useEffect(() => {
+    const visited = localStorage.getItem('visited');
+    if (!visited) {
+      setShowModal(true);
+      localStorage.setItem('visited', 'true');}
+    }, []);
+
   return (
     <ClientLayout>
    
@@ -27,6 +38,7 @@ export default function MyApp({ Component, pageProps }) {
         `}
       </Script>
       <Component {...pageProps} />
+     {showModal && <PromoModal setShowModal={setShowModal} />}
     </ClientLayout>
   )
 }

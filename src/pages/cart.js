@@ -23,6 +23,44 @@ export default function CartPage() {
   const contactForm = useRef()
   const [alert, setAlert] = useState(null)
   const [isSending, setIsSending] = useState(false)
+  const [discountedTotal, setDiscountedTotal] = useState(null)
+  const [promoMessage, setPromoMessage] = useState(null)
+  const [showMessage, setShowMessage] = useState(false);
+  const [isError, setIsError] = useState(false);
+
+
+  const baseUrlV2 =	 'https://api.perukytyt.com/v2'
+
+  async function getPromoPrice(e) {	
+		e.preventDefault();
+		const response = await fetch(`${baseUrlV2}/promos/redeem`, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({
+				code: e.target.promo_code.value,
+        cartTotal: total
+			})
+		});
+		const data = await response.json();
+    if (!response.ok) {
+      setIsError(true);
+      setShowMessage(true);
+      setPromoMessage("Промокод недійсний");
+      setTimeout(() => {
+        setShowMessage(false);
+      }, 4000)
+      return;
+    }
+    setIsError(false)
+    setShowMessage(true);
+    setPromoMessage("Промокод застосовано");
+      setTimeout(() => {
+        setShowMessage(false);
+      }, 4000)
+    setDiscountedTotal(data.newTotal);
+}
 
   const sendContactRequest = async (e) => {
     e.preventDefault()
@@ -45,6 +83,7 @@ export default function CartPage() {
       setIsSending(false)
     }
   }
+
 
   return (
     <div className={`${styles['cart-page']} container`}>
@@ -89,8 +128,28 @@ export default function CartPage() {
           </div>
 
           <div className={styles['cart-summary']}>
+            <form 
+            className={styles.promoForm}
+            onSubmit={getPromoPrice}
+            >
+               <input
+                    type="text"
+                    id="promo_code"
+                    name="promo_code"
+                    placeholder="Введіть промокод"
+                    title="Введіть промокод"
+                    className={styles.promoInput}
+                  />
+              <button 
+              type="submit" 
+              className={styles.promoSubmit}
+              >
+                Застосувати промокод
+              </button>    
+            </form>
+            {showMessage && <p className={`${styles.promoMessage} ${isError ? styles.error : ''}`}>{promoMessage}</p>}
             <p>Товарів у кошику: {itemCount}</p>
-            <h2>Загальна сума: {total} грн</h2>
+            <h2>Загальна сума: {discountedTotal ?? total} грн</h2>
             <button onClick={() => setShowModal(true)} className={styles['checkout-btn']}>
               Оформити замовлення
             </button>
@@ -161,7 +220,7 @@ export default function CartPage() {
                 <input
                   type="hidden"
                   name="cart_total"
-                  value={`${total} грн`}
+                  value={`${discountedTotal ?? total} грн`}
                 />
 
                 <button type="submit" disabled={isSending}>

@@ -107,8 +107,8 @@ export default function ProductPage({ product }) {
     "offers": {
       "@type": "Offer",
       "priceCurrency": "UAH",
-      "price": currentVariant.promo_price,
-      "availability": currentVariant.availability
+      "price": product.variants.promo_price,
+      "availability": product.variants.availability
         ? "https://schema.org/InStock"
         : "https://schema.org/OutOfStock",
       "url": `https://perukytut.com.ua/products/${categorySlug}/${product.id}`

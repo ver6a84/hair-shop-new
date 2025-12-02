@@ -1,0 +1,56 @@
+.promoModal {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: var(--primary-light);
+		padding:10px 30px 20px 30px;
+		z-index: 1000;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+.promoText {
+		font-size: 18px;
+		margin-bottom: 10px;
+		color: #333;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+.promoText span {
+		font-weight: bold;
+		font-size: 24px;
+}
+.promoClose{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		cursor: pointer;
+}
+.promoSubmit{
+		margin-top: 20px;
+		background-color: #333;
+		color: #fff;
+		border-radius: 4px;
+		cursor: pointer;
+		width: 100%;
+		padding: 6px;
+}
+.promoMessage {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: green;
+		padding: 10px;
+		white-space: nowrap;
+		border-radius: 4px;
+		color: #fff;
+}
+.promoMessage.error {
+		background: red;
+}
