@@ -25,11 +25,17 @@ export default function PromoModal({ setShowModal }) {
 			setMessage(data.message);
 			setShowMessage(true);
 			setIsError(true);
+			setTimeout(() => {
+				setShowMessage(false);
+			}, 3000);
 			return;
 		}
 		setMessage(data.message);
-		setShowModal(false);
 		setShowMessage(true);
+		setTimeout(() => {
+				setShowMessage(false);
+				setShowModal(false);
+			}, 3000);
 	}
 	
 	return (

@@ -27,40 +27,70 @@ export default function CartPage() {
   const [promoMessage, setPromoMessage] = useState(null)
   const [showMessage, setShowMessage] = useState(false);
   const [isError, setIsError] = useState(false);
+  const [promoApplied, setPromoApplied] = useState(
+  () => localStorage.getItem("promoApplied") === "true"
+  );
 
-
-  const baseUrlV2 =	 'https://api.perukytyt.com/v2'
-
-  async function getPromoPrice(e) {	
-		e.preventDefault();
-		const response = await fetch(`${baseUrlV2}/promos/redeem`, {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json'
-			},
-			body: JSON.stringify({
-				code: e.target.promo_code.value,
-        cartTotal: total
-			})
-		});
-		const data = await response.json();
-    if (!response.ok) {
-      setIsError(true);
-      setShowMessage(true);
-      setPromoMessage("Промокод недійсний");
-      setTimeout(() => {
-        setShowMessage(false);
-      }, 4000)
-      return;
-    }
-    setIsError(false)
-    setShowMessage(true);
-    setPromoMessage("Промокод застосовано");
-      setTimeout(() => {
-        setShowMessage(false);
-      }, 4000)
-    setDiscountedTotal(data.newTotal);
+const baseUrlV2 =	 'https://api.perukytyt.com/v2'
+  
+function clearInput(e) {
+  e.target.promo_code.value = "";
 }
+
+function resetPromo() {
+  setPromoApplied(false);
+  localStorage.removeItem("promoApplied");
+}
+
+async function getPromoPrice(e) {
+  e.preventDefault();
+
+  if (promoApplied) {
+    setIsError(true);
+    setShowMessage(true);
+    setPromoMessage("Вибачте, Ви вже застосували знижку");
+    setTimeout(() => {
+      setShowMessage(false);
+      clearInput(e);
+    }, 4000);
+    return;
+  }
+
+  const response = await fetch(`${baseUrlV2}/promos/redeem`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      code: e.target.promo_code.value,
+      cartTotal: total,
+    }),
+  });
+
+  const data = await response.json();
+
+  if (!response.ok) {
+    setIsError(true);
+    setShowMessage(true);
+    setPromoMessage("Промокод недійсний");
+    setTimeout(() => {
+      setShowMessage(false);
+      clearInput(e);
+    }, 4000);
+    return;
+  }
+
+  setIsError(false);
+  setShowMessage(true);
+  setPromoMessage("Промокод застосовано");
+  setTimeout(() => {
+    setShowMessage(false);
+    clearInput(e);
+  }, 4000);
+
+  setDiscountedTotal(data.newTotal);
+  setPromoApplied(true);
+  localStorage.setItem("promoApplied", "true"); 
+}
+
 
   const sendContactRequest = async (e) => {
     e.preventDefault()
@@ -75,6 +105,7 @@ export default function CartPage() {
         clearCart()
         setAlert(null)
         setShowModal(false)
+        resetPromo()
       }, 4000)
     } catch {
       setAlert({ type: 'error', message: '❌ Помилка при надсиланні.' })
