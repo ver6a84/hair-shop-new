@@ -12,9 +12,13 @@ export default function MyApp({ Component, pageProps }) {
   useEffect(() => {
     const visited = localStorage.getItem('visited');
     if (!visited) {
-      setShowModal(true);
-      localStorage.setItem('visited', 'true');}
-    }, []);
+      const timeout = setTimeout(() => {
+        setShowModal(true);
+      }, 2000);
+      localStorage.setItem('visited', 'true');
+      return () => clearTimeout(timeout);
+    }
+  }, []);
 
   return (
     <ClientLayout>

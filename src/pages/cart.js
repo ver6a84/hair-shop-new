@@ -8,7 +8,7 @@ import Icon from '@/components/icon'
 import styles from '@/styles/pages.module.css'
 import { SERVICE_ID, TEMPLATE_ID_ORDER, PUBLIC_KEY, CATEGORIES_URLS } from '@/utils/constants'
 import emailjs from '@emailjs/browser'
-
+import { useLocalStorage } from '@/hooks/useLocalStorage'
 export default function CartPage() {
   const {
     cartItems,
@@ -27,9 +27,7 @@ export default function CartPage() {
   const [promoMessage, setPromoMessage] = useState(null)
   const [showMessage, setShowMessage] = useState(false);
   const [isError, setIsError] = useState(false);
-  const [promoApplied, setPromoApplied] = useState(
-  () => localStorage.getItem("promoApplied") === "true"
-  );
+  const [promoApplied, setPromoApplied] = useLocalStorage("promoApplied", false);
 
 const baseUrlV2 =	 'https://api.perukytyt.com/v2'
   
@@ -39,7 +37,6 @@ function clearInput(e) {
 
 function resetPromo() {
   setPromoApplied(false);
-  localStorage.removeItem("promoApplied");
 }
 
 async function getPromoPrice(e) {
@@ -88,7 +85,6 @@ async function getPromoPrice(e) {
 
   setDiscountedTotal(data.newTotal);
   setPromoApplied(true);
-  localStorage.setItem("promoApplied", "true"); 
 }
 
 
