@@ -216,8 +216,7 @@ async function getPromoPrice(e) {
                     id="phone"
                     name="user_tel"
                     placeholder="+380..."
-                    pattern="\+380\d{9}"
-                    title="Введіть номер у форматі +380XXXXXXXXX"
+                    title="Введіть ваш номер телефону"
                     autoComplete="tel"
                   />
                 </div>
@@ -231,7 +230,7 @@ async function getPromoPrice(e) {
                     id="email"
                     name="user_email"
                     placeholder="example@gmail.com"
-                    title="Введіть email у форматі example@gmail.com"
+                    title="Введіть ваш email"
                     autoComplete="email"
                   />
                 </div>

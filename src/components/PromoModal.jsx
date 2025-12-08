@@ -30,6 +30,8 @@ export default function PromoModal({ setShowModal }) {
 			}, 3000);
 			return;
 		}
+
+		setIsError(false);
 		setMessage(data.message);
 		setShowMessage(true);
 		setTimeout(() => {
