@@ -77,10 +77,10 @@ export const ROUTES = {
   COLORS: '/colors'
 }
 
-export const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID
-export const TEMPLATE_ID_CONTACT_US = process.env.NEXT_PUBLIC_TEMPLATE_ID_CONTACT_US
-export const TEMPLATE_ID_ORDER = process.env.NEXT_PUBLIC_TEMPLATE_ID_ORDER
-export const PUBLIC_KEY = process.env.NEXT_PUBLIC_PUBLIC_KEY
+export const SERVICE_ID = 'service_j7qrtug'
+export const TEMPLATE_ID_CONTACT_US = 'template_suxpbsw'
+export const TEMPLATE_ID_ORDER = 'template_hs606rg'
+export const PUBLIC_KEY = 'b2mz7W1o1e4LwrwL3'
 
 export const LIDER_IDS = [
   '306085fd-19a0-4c70-99f7-918c59ecc535',
