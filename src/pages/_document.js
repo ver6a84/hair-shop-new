@@ -52,7 +52,7 @@ export default function Document() {
               "telephone": "+380932054774",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "проспект Коцюбинського, 13",
+                "streetAddress": "Центральний ринок, проспект Коцюбинського, Вінниця, Вінницька обл, 21000",
                 "addressLocality": "Вінниця",
                 "addressCountry": "UA"
               },
@@ -60,7 +60,12 @@ export default function Document() {
               "@type": "Country",
               "name": "Україна"
               },
-              "openingHours": "Tu-Su 09:00-16:00"
+              "openingHours": "Tu-Su 09:00-16:00",
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 49.2387066,   
+                "longitude": 28.4998818  
+              }
             })
           }}
         />

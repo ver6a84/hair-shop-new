@@ -52,10 +52,11 @@ export default function Contact() {
           <Icon name="location" />
           <div>
             <h3>Адреса</h3>
+            <a href='https://www.google.com/maps/place/%D0%9F%D0%B5%D1%80%D1%83%D0%BA%D0%B8+%D0%B2+%D0%92%D1%96%D0%BD%D0%BD%D0%B8%D1%86%D1%96/@49.2387066,28.4998818,17z/data=!3m1!4b1!4m6!3m5!1s0x472d5b2776f32dfb:0x83e6f17cf7b0e329!8m2!3d49.2387066!4d28.4998818!16s%2Fg%2F11kkw9pjdb?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'>
             <p>
-              проспект Коцюбинського, 13<br />
-              Вінниця, 21000
+              Центральний ринок, проспект Коцюбинського, Вінниця, Вінницька обл, 21000
             </p>
+            </a>
           </div>
         </div>
       
