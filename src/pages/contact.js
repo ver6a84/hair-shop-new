@@ -39,10 +39,6 @@ export default function Contact() {
               <p>+380 (93) 205-47-74</p>
               <p>@perukytut</p>
             </a>
-            <a href="https://t.me/perukytut" target="_blank" rel="noopener noreferrer">
-              <p>+380 (63) 436-79-91</p>
-              <p>@perukytut</p>
-            </a>
           </div>
         </div>
 
