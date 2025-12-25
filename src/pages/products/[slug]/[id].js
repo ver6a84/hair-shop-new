@@ -77,7 +77,7 @@ export default function ProductPage({ product }) {
         product_id: product.id,
         variantId: currentVariant.id,
         name: product.display_name,
-        price: currentVariant.promo_price,
+        price: currentVariant.price,
         image: currentVariant.images[0],
         article: product.article,
         quantity,
@@ -108,7 +108,7 @@ export default function ProductPage({ product }) {
     "offers": {
       "@type": "Offer",
       "priceCurrency": "UAH",
-      "price": product.variants.promo_price,
+      "price": product.variants.price,
       "availability": product.variants.availability
         ? "https://schema.org/InStock"
         : "https://schema.org/OutOfStock",
@@ -206,13 +206,13 @@ export default function ProductPage({ product }) {
               <p className={styles['article']}>Артикул: {product.article}</p>
               <a href="#reviews"><Rating product_id={product.id} /></a>
 
-              <div className={styles['promo']}>
+              {/* <div className={styles['promo']}>
                 <p className={styles['old-price']}>{currentVariant.price} грн</p>
                 <p className={styles['discount']}>
                   {Math.round(((currentVariant.promo_price - currentVariant.price) / currentVariant.price) * 100)}%
                 </p>
-              </div>
-              <p className={styles['price']}>{currentVariant.promo_price} грн</p>
+              </div> */}
+              <p className={styles['price']}>{currentVariant.price} грн</p>
 
               <div className={styles['product-specs']}>
                 <p><strong>Тип волосся:</strong> {HAIR_TYPES_TRANSLATIONS[product.type]}</p>

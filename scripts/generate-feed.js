@@ -56,7 +56,7 @@ const generateFeed = async () => {
 
       const categorySlug = CATEGORIES_URLS[product.category] || 'wigs'
       const availability = variant.availability ? 'in stock' : 'out of stock'
-      const price = `${variant.promo_price} UAH`
+      const price = `${variant.price} UAH`
 
       return [
         escape(product.id),

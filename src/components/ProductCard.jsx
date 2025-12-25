@@ -105,14 +105,14 @@ export default function ProductCard({ product }) {
           <h3>{product.display_name}</h3>
         </Link>
 
-        <div className={styles.promo}>
+        {/* <div className={styles.promo}>
           <p className={styles['old-price']}>{selected.price} грн</p>
           <p className={styles.discount}>
             {Math.round(((selected.promo_price - selected.price) / selected.price) * 100)}%
           </p>
-        </div>
+        </div> */}
 
-        <p className={styles['product-price']}>{selected.promo_price} грн</p>
+        <p className={styles['product-price']}>{selected.price} грн</p>
       </div>
     </div>
   )
