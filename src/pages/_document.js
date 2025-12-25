@@ -49,12 +49,18 @@ export default function Document() {
               "description": "перуки Україна, доставка по Україні, купити перуку онлайн",
               "keywords": "купити перуку Україна, доставка перук по Україні",
               "@id": "https://perukytut.com.ua",
-              "telephone": "+380932054774",
+              "telephone": [
+                "+380932054774",
+                "+380634367991"
+              ],
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Центральний ринок, проспект Коцюбинського, Вінниця, Вінницька обл, 21000",
+                "streetAddress": "проспект Коцюбинського",
+                "extendedAddress": "Центральний ринок",
                 "addressLocality": "Вінниця",
-                "addressCountry": "UA"
+                "addressRegion": "Вінницька область",
+                "addressCountry": "UA",
+                "postalCode": "21000"
               },
               "areaServed": {
               "@type": "Country",
