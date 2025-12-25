@@ -14,6 +14,7 @@ export default function Contact() {
           <div>
             <h3>Телефон</h3>
             <p>+380 (93) 205-47-74</p>
+            <p>+380 (63) 436-79-91</p>
           </div>
         </div>
 
@@ -24,6 +25,9 @@ export default function Contact() {
             <a href="viber://chat?number=%2B380932054774">
               <p>+380 (93) 205-47-74</p>
             </a>
+            <a href="viber://chat?number=%2B380634367991">
+              <p>+380 (63) 436-79-91</p>
+            </a>
           </div>
         </div>
 
@@ -33,6 +37,10 @@ export default function Contact() {
             <h3>Telegram</h3>
             <a href="https://t.me/perukytut" target="_blank" rel="noopener noreferrer">
               <p>+380 (93) 205-47-74</p>
+              <p>@perukytut</p>
+            </a>
+            <a href="https://t.me/perukytut" target="_blank" rel="noopener noreferrer">
+              <p>+380 (63) 436-79-91</p>
               <p>@perukytut</p>
             </a>
           </div>
