@@ -7,18 +7,18 @@ import { useEffect, useState } from 'react'
 import PromoModal from '@/components/PromoModal'
 
 export default function MyApp({ Component, pageProps }) {
-  const [showModal, setShowModal] = useState(false);
+  // const [showModal, setShowModal] = useState(false);
   
-  useEffect(() => {
-    const visited = localStorage.getItem('visited');
-    if (!visited) {
-      const timeout = setTimeout(() => {
-        setShowModal(true);
-      }, 2000);
-      localStorage.setItem('visited', 'true');
-      return () => clearTimeout(timeout);
-    }
-  }, []);
+  // useEffect(() => {
+  //   const visited = localStorage.getItem('visited');
+  //   if (!visited) {
+  //     const timeout = setTimeout(() => {
+  //       setShowModal(true);
+  //     }, 2000);
+  //     localStorage.setItem('visited', 'true');
+  //     return () => clearTimeout(timeout);
+  //   }
+  // }, []);
 
   return (
     <ClientLayout>
@@ -42,7 +42,7 @@ export default function MyApp({ Component, pageProps }) {
         `}
       </Script>
       <Component {...pageProps} />
-     {showModal && <PromoModal setShowModal={setShowModal} />}
+     {/* {showModal && <PromoModal setShowModal={setShowModal} />} */}
     </ClientLayout>
   )
 }
