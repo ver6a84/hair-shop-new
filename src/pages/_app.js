@@ -43,6 +43,7 @@ export default function MyApp({ Component, pageProps }) {
       </Script>
       <Component {...pageProps} />
      {/* {showModal && <PromoModal setShowModal={setShowModal} />} */}
+     <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
     </ClientLayout>
   )
 }
