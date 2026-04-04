@@ -857,6 +857,48 @@
   margin-bottom: var(--spacing-xl);
 }
 
+/* Return Page */
+.return-content {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-xxl);
+}
+
+.return-section {
+  margin-bottom: var(--spacing-xl);
+}
+
+.return-section h2 {
+  color: var(--text-dark);
+  margin-bottom: var(--spacing-md);
+  font-size: 1.35rem;
+}
+
+.return-section ul,
+.return-section ol {
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-lg);
+}
+
+.return-section li {
+  margin: var(--spacing-sm) 0;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.return-section ol li {
+  padding-left: var(--spacing-xs);
+}
+
+.return-contacts li {
+  list-style: none;
+  padding: var(--spacing-sm) 0;
+}
+
+.return-contacts a {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
 .colorsWrapper{
   margin-bottom: var(--border-radius-xl);
 }
