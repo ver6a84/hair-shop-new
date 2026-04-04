@@ -16,8 +16,8 @@ export default function Home({ liderProducts }) {
 	return (
 			<>
 			<Head>
-  		<title>Головна | Перуки ТУТ</title>
-  		<meta name="description" content="Лідери продажу, догляд за волоссям, каталог перук — все в одному місці." />
+				<title>Головна | Перуки ТУТ</title>
+				<meta name="description" content="Лідери продажу, догляд за волоссям, каталог перук - все в одному місці." />
 			</Head>
 			<HeroBanner/>
 			<section id="catalog">

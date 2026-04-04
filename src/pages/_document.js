@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Інтернет-магазин перук — натуральні та штучні моделі зі швидкою доставкою по Україні."/>
+        <meta name="description" content="Інтернет-магазин перук - натуральні та штучні моделі з швидкою доставкою по Україні."/>
         <meta name="keywords" content="перуки, інтернет-магазин, купити перуку, перуки Україна, натуральні перуки, штучні перуки, вибрати перуку, доставка перук" />
         <meta name="author" content="Перуки Тут" />
         <meta name="robots" content="index,follow" />
@@ -55,7 +55,7 @@ export default function Document() {
               ],
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "проспект Коцюбинського",
+                "streetAddress": "проспект Коцюбинського 13",
                 "extendedAddress": "Центральний ринок",
                 "addressLocality": "Вінниця",
                 "addressRegion": "Вінницька область",
@@ -66,7 +66,7 @@ export default function Document() {
               "@type": "Country",
               "name": "Україна"
               },
-              "openingHours": "Tu-Su 09:00-16:00",
+              "openingHours": "Tu-Su 09:00-15:30",
               "geo": {
                 "@type": "GeoCoordinates",
                 "latitude": 49.2387066,   

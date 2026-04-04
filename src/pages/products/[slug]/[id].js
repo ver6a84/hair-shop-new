@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { getProduct } from '@/api'
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef } from 'react'
 import { getImageUrlByKey } from '@/api/images'
 import { useCart } from '@/context/CartContext'
 import Icon from '@/components/icon'
@@ -8,7 +8,6 @@ import Breadcrumb from '@/components/BreadCrumb'
 import Slider from 'react-slick'
 import Reviews from '@/components/Reviews'
 import Rating from '@/components/Rating'
-import { useSearchParams, usePathname, useParams } from 'next/navigation'
 import {
   HAIR_TYPES_TRANSLATIONS,
   HAIR_LENGTHS,
@@ -36,15 +35,11 @@ export async function getServerSideProps(context) {
 
 export default function ProductPage({ product }) {
   const [quantity, setQuantity] = useState(1)
-  const [selectedVariant, setSelectedVariant] = useState(0)
+  const [selectedVariant, setSelectedVariant] = useState(0);
   const [addToCartStatus, setAddToCartStatus] = useState(null)
   const variantsRef = useRef(null)
+  const sliderRef = useRef(null)
   const { addToCart } = useCart()
-  const [activeImageIndex, setActiveImageIndex] = useState(0);
-
-  useEffect(() => {
-    setActiveImageIndex(0)
-  }, [selectedVariant])
 
   const scrollLeft = () => {
     variantsRef.current?.scrollBy({ left: -89, behavior: 'smooth' })
@@ -138,25 +133,24 @@ export default function ProductPage({ product }) {
                 slidesToShow={1}
                 slidesToScroll={1}
                 arrows
-                afterChange={(index) => setActiveImageIndex(index)}
                 fade
               >
                 {currentVariant.images.map((imgKey, index) => (
                   <div key={`slide-${index}`}>
                     <img
-          src={getImageUrlByKey(imgKey, { width: 600, height: 900, quality: 100 })}
-          srcSet={`
-            ${getImageUrlByKey(imgKey, { width: 320, height: 480, quality: 100 })} 320w,
-            ${getImageUrlByKey(imgKey, { width: 600, height: 900, quality: 100 })} 600w
-          `}
-          sizes="(max-width: 600px) 160px, 300px"
-          width={600}
-          height={900}
-          alt={product.display_name}
-          style={{ width: "100%", height: "auto", maxWidth: "500px", borderRadius: "16px" }}
-          loading="lazy"
-          decoding="async"
-        />
+                      src={getImageUrlByKey(imgKey, { width: 600, height: 900, quality: 100 })}
+                      srcSet={`
+                        ${getImageUrlByKey(imgKey, { width: 320, height: 480, quality: 100 })} 320w,
+                        ${getImageUrlByKey(imgKey, { width: 600, height: 900, quality: 100 })} 600w
+                      `}
+                      sizes="(max-width: 600px) 160px, 300px"
+                      width={600}
+                      height={900}
+                      alt={product.display_name}
+                      style={{ width: "100%", height: "auto",aspectRatio: "3/4", maxWidth: "500px", borderRadius: "16px" }}
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </div>
                 ))}
               </Slider>
@@ -177,10 +171,10 @@ export default function ProductPage({ product }) {
                       title={variant.color}
                     >
                       <img
-                    src={getImageUrlByKey(variant.images[0], { width: 80, height: 80, quality: 100 })}
-                    alt={`${product.display_name} - ${variant.color}`}
-                    loading="lazy"
-                  />
+                        src={getImageUrlByKey(variant.images[0], { width: 80, height: 80, quality: 100 })}
+                        alt={`${product.display_name} - ${variant.color}`}
+                        loading="lazy"
+                      />
                     </button>
                   ))}
                 </div>
