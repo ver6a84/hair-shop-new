@@ -598,15 +598,33 @@
 .about-content p,
 .return-page p,
 .return-page h4,
-.delivery-page p {
+.delivery-page p,
+.delivery-section p {
   line-height: 1.6;
   margin-bottom: var(--spacing-md);
   color: var(--text-muted);
 }
 
+.about-content {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-xxl);
+}
+
+.about-section {
+  margin-bottom: var(--spacing-xl);
+}
+
+.about-section h2 {
+  color: var(--text-dark);
+  margin-bottom: var(--spacing-md);
+  font-size: 1.35rem;
+}
+
 .about-content ul,
 .care-page ul {
+  list-style: none;
   margin: var(--spacing-md) 0;
+  padding-left: 0;
 }
 
 .about-content li,
@@ -614,8 +632,7 @@
   margin: var(--spacing-sm) 0;
   color: var(--text-muted);
   position: relative;
-  padding-left: var(--border-radius-lg);
-  margin-left: var(--spacing-lg);
+  padding-left: var(--spacing-lg);
 }
 
 .about-content ul li::before,
@@ -630,6 +647,21 @@
   height: 6px;
   margin-right: var(--border-radius-sm);
   display: inline-block;
+}
+
+.about-contacts li {
+  list-style: none;
+  padding: var(--spacing-sm) 0;
+  padding-left: 0;
+}
+
+.about-content .about-contacts li::before {
+  display: none;
+}
+
+.about-contacts a {
+  color: var(--primary-dark);
+  text-decoration: underline;
 }
 
 .care-page ol li::marker {
@@ -674,42 +706,48 @@
   flex-direction: column;
 }
 
-.delivery-page h2 {
+.delivery-content {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-xxl);
+}
+
+.delivery-section {
+  margin-bottom: var(--spacing-xl);
+}
+
+.delivery-section h2 {
+  color: var(--text-dark);
+  margin-bottom: var(--spacing-md);
+  font-size: 1.35rem;
+}
+
+.delivery-section h3 {
+  color: var(--text-dark);
   margin-bottom: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+  font-size: 1.15rem;
 }
 
-.delivery-page-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-xxl);
+.delivery-section ul,
+.delivery-section ol {
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-lg);
 }
 
-.delivery-step {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+.delivery-section li {
+  margin: var(--spacing-sm) 0;
+  color: var(--text-muted);
+  line-height: 1.6;
 }
 
-.calling_phone,
-.delivery,
-.post_office {
-  padding: var(--spacing-lg);
+.delivery-contacts li {
+  list-style: none;
+  padding: var(--spacing-sm) 0;
 }
 
-.gold_cart {
-  margin-right: var(--spacing-lg);
-}
-
-@media (min-width: 768px) {
-  .delivery-page-wrapper {
-    flex-direction: row;
-    margin-top: 100px;
-  }
-
-  .delivery-step {
-    width: 300px;
-  }
+.delivery-contacts a {
+  color: var(--primary-dark);
+  text-decoration: underline;
 }
 
 
