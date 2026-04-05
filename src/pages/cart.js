@@ -176,9 +176,9 @@ async function getPromoPrice(e) {
             {showMessage && <p className={`${styles.promoMessage} ${isError ? styles.error : ''}`}>{promoMessage}</p>}
             <p>Товарів у кошику: {itemCount}</p>
             <h2>Загальна сума: {discountedTotal ?? total} грн</h2>
-            <button onClick={() => setShowModal(true)} className={styles['checkout-btn']}>
+            <Link href="/checkout" className={styles['checkout-btn']}>
               Оформити замовлення
-            </button>
+            </Link>
           </div>
 
           {showModal && (
