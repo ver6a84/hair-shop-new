@@ -61,6 +61,30 @@ export default function Footer() {
                 <li><Link href="/contact">Контакти</Link></li>
               </ul>
             </div>
+            <div className={styles.contacts}>
+              <h4>Контакти</h4>
+              <div className={styles['contact-item']}>
+                <Icon size={18} className={styles['contact-icon']} name="phone" />
+                <div>
+                  <a href="tel:+380932054774">+380 (93) 205-47-74</a>
+                  <a href="tel:+380634367991">+380 (63) 436-79-91</a>
+                </div>
+              </div>
+              <div className={styles['contact-item']}>
+                <Icon size={18} className={styles['contact-icon']} name="location" />
+                <a
+                  href="https://www.google.com/maps/place/%D0%9F%D0%B5%D1%80%D1%83%D0%BA%D0%B8+%D0%B2+%D0%92%D1%96%D0%BD%D0%BD%D0%B8%D1%86%D1%96/@49.2387066,28.4998818,17z"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Проспект Коцюбинського, 13, Вінниця
+                </a>
+              </div>
+              <div className={styles['contact-item']}>
+                <Icon size={18} className={styles['contact-icon']} name="calendar" />
+                <span>Вт–Нд: 9:00 – 15:30</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

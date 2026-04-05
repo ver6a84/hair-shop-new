@@ -107,6 +107,42 @@
   color: var(--text-muted);
 }
 
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.contacts h4 {
+  margin-bottom: var(--spacing-xs);
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+}
+
+.contact-item div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-item a,
+.contact-item span {
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.contact-item a:hover {
+  color: var(--text-muted);
+}
+
+.contact-icon {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
 .copyright {
   color: var(--text-light);
   display: flex;
