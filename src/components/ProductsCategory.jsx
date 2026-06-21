@@ -11,7 +11,7 @@ export default function CatalogPage({ showBreadCrumb = true }) {
   <title>Каталог перук та аксесуарів | Перуки ТУТ</title>
     </Head>
     <div className={`${styles['products-page']} container`}>
-      <h1>Наші товари</h1>
+      {showBreadCrumb ? <h1>Наші товари</h1> : <h2>Наші товари</h2>}
       {showBreadCrumb && <BreadCrumb />}
       <div className={styles['cards-grid']}>
         {Object.values(PRODUCT_CATEGORIES).map((item) => (

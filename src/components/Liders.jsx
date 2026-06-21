@@ -8,7 +8,7 @@ export default function Liders({liderProducts}) {
 
 	return(
 		<div className={styles.lidersWrap}>
-			<h1>Лідери продажу</h1>
+			<h2>Лідери продажу</h2>
 		<div className={`${styles.lidersGrid} container`}>
 			{safeProducts.map(product => (
 			<ProductCard key={product.id} product={product} />

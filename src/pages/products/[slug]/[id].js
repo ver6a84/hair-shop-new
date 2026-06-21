@@ -92,6 +92,18 @@ export default function ProductPage({ product }) {
 
   const categorySlug = CATEGORIES_URLS[product.category] || 'wigs'
 
+  const pageTitle = `${product.display_name} — купити в Україні | Перуки Тут`
+  const metaDescription = (() => {
+    const clean = product.description?.replace(/\s+/g, ' ').trim()
+    const suffix = `${currentVariant.price} грн. Доставка по Україні.`
+    if (!clean) return `Купити ${product.display_name} — ${suffix}`
+    const maxLength = 155 - suffix.length - 1
+    const truncated = clean.length > maxLength
+      ? `${clean.slice(0, maxLength).trim()}…`
+      : clean
+    return `${truncated} ${suffix}`
+  })()
+
   const schemaProduct = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -115,7 +127,8 @@ export default function ProductPage({ product }) {
   return (
     <>
       <Head>
-        <title>{product.display_name} купити Україна | Доставка по всій Україні |  Перуки Тут - натуральні та синтетичні перуки,аксесуари</title>
+        <title>{pageTitle}</title>
+        <meta name="description" content={metaDescription} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaProduct) }}
@@ -198,7 +211,7 @@ export default function ProductPage({ product }) {
           <div className={styles['product-info']}>
             <div className={styles['characteristic']}>
               <Breadcrumb categoryId={product.category} productName={product.display_name} />
-              <h2>{product.display_name}</h2>
+              <h1>{product.display_name}</h1>
               <p className={styles['article']}>Артикул: {product.article}</p>
               <a href="#reviews"><Rating product_id={product.id} /></a>
 
