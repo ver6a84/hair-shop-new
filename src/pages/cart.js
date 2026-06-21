@@ -2,6 +2,7 @@
 
 import { useCart } from '@/context/CartContext'
 import { getImageUrlByKey } from '@/api/images'
+import Head from 'next/head'
 import Link from 'next/link'
 import { useState, useRef } from 'react'
 import Icon from '@/components/icon'
@@ -112,7 +113,13 @@ async function getPromoPrice(e) {
   }
   
   return (
-    <div className={`${styles['cart-page']} container`}>
+    <>
+      <Head>
+        <title>Кошик | Перуки Тут</title>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
+
+      <div className={`${styles['cart-page']} container`}>
       <h1>Кошик</h1>
 
       {cartItems.length === 0 ? (
@@ -263,5 +270,6 @@ async function getPromoPrice(e) {
         </>
       )}
     </div>
+    </>
   )
 }

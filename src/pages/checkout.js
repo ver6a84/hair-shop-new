@@ -65,7 +65,7 @@ export default function CheckoutPage() {
       <>
         <Head>
           <title>Замовлення оформлено | Перуки Тут</title>
-          <meta name="robots" content="noindex" />
+          <meta name="robots" content="noindex, nofollow" />
         </Head>
 
         <div className={`${styles['checkout-page']} container`}>
@@ -139,10 +139,7 @@ export default function CheckoutPage() {
     <>
       <Head>
         <title>Оформлення замовлення | Перуки Тут</title>
-        <meta
-          name="description"
-          content="Оформлення замовлення в інтернет-магазині перук Перуки Тут. Купити перуку онлайн з доставкою по Україні. Швидко, зручно, безпечно."
-        />
+        <meta name="robots" content="noindex, nofollow" />
       </Head>
 
       <div className={`${styles['checkout-page']} container`}>

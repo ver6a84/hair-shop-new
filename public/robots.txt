@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /cart/
+Disallow: /cart
+Disallow: /checkout
 Sitemap: https://perukytut.com.ua/sitemap.xml
 
