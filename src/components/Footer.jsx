@@ -57,6 +57,7 @@ export default function Footer() {
                 <h4>Допомога</h4>
                 <li><Link href="/delivery-ukraine">Доставка та оплата</Link></li>
                 <li><Link href="/return">Обмін та повернення</Link></li>
+                <li><Link href="/yak-obraty-peruku">Як обрати перуку</Link></li>
                 <li><Link href="/about">Про нас</Link></li>
                 <li><Link href="/contact">Контакти</Link></li>
               </ul>

@@ -47,6 +47,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://perukytut.com.ua/yak-obraty-peruku</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://perukytut.com.ua/products/wigs</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

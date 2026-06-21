@@ -76,7 +76,8 @@ export const ROUTES = {
   DELIVERY: '/delivery-ukraine',
   RETURN: '/return',
   CARE: '/care',
-  COLORS: '/colors'
+  COLORS: '/colors',
+  HOW_TO_CHOOSE: '/yak-obraty-peruku'
 }
 
 export const SERVICE_ID = 'service_j7qrtug'

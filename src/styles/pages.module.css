@@ -665,6 +665,28 @@
   text-decoration: underline;
 }
 
+.about-content a {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.about-content a:hover {
+  color: var(--primary);
+}
+
+.seo-cta {
+  background: var(--background-muted);
+  border-radius: var(--border-radius-md);
+  padding: var(--spacing-lg);
+  text-align: center;
+}
+
+.seo-cta-link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+}
+
 .care-page ol li::marker {
   font-weight: 800;
 }
