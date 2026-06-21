@@ -3,6 +3,7 @@
 import { useCart } from '@/context/CartContext'
 import { getImageUrlByKey } from '@/api/images'
 import Head from 'next/head'
+import CanonicalLink from '@/components/CanonicalLink'
 import Link from 'next/link'
 import { useState } from 'react'
 import styles from '@/styles/pages.module.css'
@@ -67,6 +68,7 @@ export default function CheckoutPage() {
           <title>Замовлення оформлено | Перуки Тут</title>
           <meta name="robots" content="noindex, nofollow" />
         </Head>
+        <CanonicalLink path="/checkout" />
 
         <div className={`${styles['checkout-page']} container`}>
           <div className={styles['checkout-success']}>
@@ -141,6 +143,7 @@ export default function CheckoutPage() {
         <title>Оформлення замовлення | Перуки Тут</title>
         <meta name="robots" content="noindex, nofollow" />
       </Head>
+      <CanonicalLink path="/checkout" />
 
       <div className={`${styles['checkout-page']} container`}>
         <h1>Оформлення замовлення</h1>

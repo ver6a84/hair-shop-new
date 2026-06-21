@@ -1,7 +1,10 @@
-import styles from'@/styles/pages.module.css'
+import CanonicalLink from '@/components/CanonicalLink'
+import styles from '@/styles/pages.module.css'
 
 export default function Care() {
 	return (
+		<>
+		<CanonicalLink path="/care" />
 		<div className={`${styles['care-page']} container`}>
 			<h1>Базовий догляд за перуками</h1>
 			<p>Якщо ви хочете зберегти зовнішній вигляд вашої перук і продовжити її термін служби, необхідно дотримуватись базового догляду. Миття перуки допоможе їй виглядати свіжо та об’ємно. Синтетичні перуки слід мити приблизно після шести-семи носінь, а перуки з натурального волосся — після семи-восьми.</p>
@@ -35,5 +38,6 @@ export default function Care() {
 				<li><strong>Надмірне використання засобів для укладки.</strong>Використовуйте лише легкі, безпечні для перук засоби. Звичайні лаки та муси можуть обтяжити волосся і ускладнити очищення.</li>
 			</ol>
 		</div>
+		</>
 	)
 }

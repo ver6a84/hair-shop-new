@@ -24,7 +24,6 @@ export default function Document() {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="uk_UA" />
 
-        <link rel="canonical" href="https://perukytut.com.ua" />
         <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
 

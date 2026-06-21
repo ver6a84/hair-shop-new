@@ -1,7 +1,10 @@
+import CanonicalLink from '@/components/CanonicalLink'
 import styles from '@/styles/pages.module.css'
 
 export default function ColorsPage () {
 	return (
+		<>
+		<CanonicalLink path="/colors" />
 		<div className={`${styles.colorsWrapper} container`}>
 			<h2>Поради по підбору кольору перуки</h2>
 			<ul><strong>Спеціальні маркування в кольорах</strong>
@@ -218,5 +221,6 @@ export default function ColorsPage () {
   			<li>Добре поєднується з кремовим, рожевим, м’ятним, золотими прикрасами</li>
 			</ul>
 		</div>
+		</>
 	)
 }

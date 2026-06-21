@@ -1,5 +1,6 @@
 'use client'
 
+import CanonicalLink from '@/components/CanonicalLink'
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import styles from '@/styles/pages.module.css'
@@ -28,6 +29,8 @@ export default function ContactUs() {
   }
 
   return (
+    <>
+    <CanonicalLink path="/contact_us" />
     <div className={`${styles['contact-us']} container`}>
       <h2>Зв’язатися з нами</h2>
       <form
@@ -100,5 +103,6 @@ export default function ContactUs() {
         </div>
       )}
     </div>
+    </>
   )
 }

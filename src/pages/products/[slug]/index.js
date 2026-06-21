@@ -1,4 +1,5 @@
 import Products from '@/components/Products'
+import CanonicalLink from '@/components/CanonicalLink'
 import { getProducts } from '@/api/index'
 import { PRODUCT_CATEGORIES, CATEGORY_ID_BY_URL } from '@/utils/constants'
 
@@ -14,12 +15,22 @@ export async function getServerSideProps(context) {
     props: {
       products: items,
       totalPages,
-      selectedCategory
+      selectedCategory,
+      slug
     }
   }
 }
 
 
-export default function ProductsPage(props) {
-  return <Products {...props} />
+export default function ProductsPage({ products, totalPages, selectedCategory, slug }) {
+  return (
+    <>
+      <CanonicalLink path={`/products/${slug}`} />
+      <Products
+        products={products}
+        totalPages={totalPages}
+        selectedCategory={selectedCategory}
+      />
+    </>
+  )
 }

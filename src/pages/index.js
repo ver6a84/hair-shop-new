@@ -1,7 +1,8 @@
+import Head from 'next/head'
+import CanonicalLink from '@/components/CanonicalLink'
 import HeroBanner from '@/components/HeroBanner'
 import CatalogPage from '@/components/ProductsCategory'
 import HairCare from '@/components/HairCare'
-import Head from 'next/head'
 import Liders from '@/components/Liders'
 import { getLiderProducts } from '@/api'
 import WigsColors from '@/components/WigsColors'
@@ -19,6 +20,7 @@ export default function Home({ liderProducts }) {
 				<title>Головна | Перуки ТУТ</title>
 				<meta name="description" content="Лідери продажу, догляд за волоссям, каталог перук - все в одному місці." />
 			</Head>
+			<CanonicalLink path="/" />
 			<HeroBanner/>
 			<section id="catalog">
   		<CatalogPage showBreadCrumb={false} />

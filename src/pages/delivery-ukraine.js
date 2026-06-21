@@ -1,6 +1,7 @@
 'use client'
 
 import Head from 'next/head'
+import CanonicalLink from '@/components/CanonicalLink'
 import styles from '@/styles/pages.module.css'
 
 export default function Delivery() {
@@ -13,6 +14,7 @@ export default function Delivery() {
           content="Умови доставки перук по Україні. Доставка Новою поштою за 1–3 дні. Оплата при отриманні. Інтернет-магазин перук Перуки Тут."
         />
       </Head>
+      <CanonicalLink path="/delivery-ukraine" />
 
       <div className={`${styles['delivery-page']} container`}>
         <h1>Доставка товару</h1>

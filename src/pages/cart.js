@@ -3,6 +3,7 @@
 import { useCart } from '@/context/CartContext'
 import { getImageUrlByKey } from '@/api/images'
 import Head from 'next/head'
+import CanonicalLink from '@/components/CanonicalLink'
 import Link from 'next/link'
 import { useState, useRef } from 'react'
 import Icon from '@/components/icon'
@@ -118,6 +119,7 @@ async function getPromoPrice(e) {
         <title>Кошик | Перуки Тут</title>
         <meta name="robots" content="noindex, nofollow" />
       </Head>
+      <CanonicalLink path="/cart" />
 
       <div className={`${styles['cart-page']} container`}>
       <h1>Кошик</h1>

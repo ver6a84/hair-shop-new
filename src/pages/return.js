@@ -1,6 +1,7 @@
 'use client'
 
 import Head from 'next/head'
+import CanonicalLink from '@/components/CanonicalLink'
 import styles from '@/styles/pages.module.css'
 
 export default function Return() {
@@ -13,6 +14,7 @@ export default function Return() {
           content="Умови повернення та обміну товару в інтернет-магазині перук Перуки Тут. Гарантія повернення, захист прав покупця, прозорі умови."
         />
       </Head>
+      <CanonicalLink path="/return" />
 
       <div className={`${styles['return-page']} container`}>
         <h1>Повернення та обмін товару</h1>

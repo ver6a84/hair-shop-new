@@ -1,10 +1,13 @@
 'use client'
 
+import CanonicalLink from '@/components/CanonicalLink'
 import Icon from '@/components/icon'
 import styles from '@/styles/pages.module.css'
 
 export default function Contact() {
   return (
+    <>
+    <CanonicalLink path="/contact" />
     <div className={`${styles['contact-page']} container`}>
       <h1>Контакти</h1>
 
@@ -74,5 +77,6 @@ export default function Contact() {
       </div>
     </div>
     </div>
+    </>
   )
 }

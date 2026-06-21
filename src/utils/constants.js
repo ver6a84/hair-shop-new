@@ -1,4 +1,6 @@
 // App constants
+export const SITE_URL = 'https://perukytut.com.ua'
+
 export const APP_NAME = 'Hair Shop'
 export const APP_VERSION = '1.0.0'
 

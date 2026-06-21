@@ -1,6 +1,7 @@
 'use client'
 
 import Head from 'next/head'
+import CanonicalLink from '@/components/CanonicalLink'
 import styles from '@/styles/pages.module.css'
 
 export default function About() {
@@ -13,6 +14,7 @@ export default function About() {
           content="Інтернет-магазин перук «Перуки Тут» - якісні перуки по Україні. Досвід роботи понад 7 років. Доставка Новою поштою. Офіційна діяльність, реальні контакти."
         />
       </Head>
+      <CanonicalLink path="/about" />
 
       <div className={`${styles['about-page']} container`}>
         <h1>Про нас - хто ми</h1>

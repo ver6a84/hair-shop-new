@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import CanonicalLink from '@/components/CanonicalLink'
 import { getProduct } from '@/api'
 import { useState, useRef } from 'react'
 import { getImageUrlByKey } from '@/api/images'
@@ -120,6 +121,7 @@ export default function ProductPage({ product }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaProduct) }}
         />
       </Head>
+      <CanonicalLink path={`/products/${categorySlug}/${product.id}`} />
 
       <div className={`${styles['product-detail']} container`}>
         <div className={styles['product-content']}>
