@@ -31,6 +31,34 @@ const ROUTES = {
 
 const BASE_URL = 'https://perukytut.com.ua';
 
+// keep in sync with RU_LOCALE_READY in src/utils/constants.js
+const RU_LOCALE_READY = true;
+
+const localizedPath = (url, locale) => {
+  if (locale === 'uk') return url;
+  return url === '/' ? `/${locale}` : `/${locale}${url}`;
+};
+
+// one <url> per locale, each listing all language versions as hreflang alternates
+const buildUrlXml = (url, withRu) => {
+  const locales = withRu ? ['uk', 'ru'] : ['uk'];
+  const alternates = withRu
+    ? [
+        ...locales.map(locale => `
+    <xhtml:link rel="alternate" hreflang="${locale}" href="${BASE_URL}${localizedPath(url, locale)}"/>`),
+        `
+    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}${url}"/>`
+      ].join('')
+    : '';
+
+  return locales.map(locale => `
+  <url>
+    <loc>${BASE_URL}${localizedPath(url, locale)}</loc>${alternates}
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>`);
+};
+
 const staticUrls = Object.values(ROUTES);
 const categoryUrls = Object.values(CATEGORIES_URLS).map(slug => `/products/${slug}`);
 
@@ -49,32 +77,18 @@ const getAllProducts = async () => {
   try {
     const products = await getAllProducts();
 
-    const staticXml = staticUrls.map(url => `
-  <url>
-    <loc>${BASE_URL}${url}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>`);
+    const staticXml = staticUrls.flatMap(url => buildUrlXml(url, RU_LOCALE_READY));
 
-    const categoryXml = categoryUrls.map(url => `
-  <url>
-    <loc>${BASE_URL}${url}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>`);
+    const categoryXml = categoryUrls.flatMap(url => buildUrlXml(url, RU_LOCALE_READY));
 
-   const productXml = products.map(p => {
-  const slug = CATEGORIES_URLS[p.category];
-  return `
-  <url>
-    <loc>${BASE_URL}/products/${slug}/${p.id}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>`;
-});
+    // russian product pages without translation are noindex, so they are left out
+    const productXml = products.flatMap(p => {
+      const slug = CATEGORIES_URLS[p.category];
+      return buildUrlXml(`/products/${slug}/${p.id}`, RU_LOCALE_READY && Boolean(p.display_name_ru));
+    });
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${[...staticXml, ...categoryXml, ...productXml].join('')}
 </urlset>`;
 

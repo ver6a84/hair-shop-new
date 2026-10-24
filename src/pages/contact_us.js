@@ -1,15 +1,18 @@
 'use client'
 
+import Head from 'next/head'
 import CanonicalLink from '@/components/CanonicalLink'
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import styles from '@/styles/pages.module.css'
 import { SERVICE_ID, TEMPLATE_ID_CONTACT_US, PUBLIC_KEY } from '@/utils/constants'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export default function ContactUs() {
   const form = useRef()
   const [alert, setAlert] = useState(null)
   const [isSending, setIsSending] = useState(false)
+  const { t } = useTranslation()
 
   const sendEmail = async (e) => {
     e.preventDefault()
@@ -18,10 +21,10 @@ export default function ContactUs() {
     setIsSending(true)
     try {
       await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID_CONTACT_US, form.current, PUBLIC_KEY)
-      setAlert({ type: 'success', message: '✅ Повідомлення надіслано!' })
+      setAlert({ type: 'success', message: t('contactUs.sent') })
       form.current.reset()
     } catch {
-      setAlert({ type: 'error', message: '❌ Помилка при надсиланні.' })
+      setAlert({ type: 'error', message: t('contactUs.error') })
     } finally {
       setIsSending(false)
       setTimeout(() => setAlert(null), 4000)
@@ -30,9 +33,12 @@ export default function ContactUs() {
 
   return (
     <>
+    <Head>
+      <title>{t('meta.contactUsTitle')}</title>
+    </Head>
     <CanonicalLink path="/contact_us" />
     <div className={`${styles['contact-us']} container`}>
-      <h2>Зв’язатися з нами</h2>
+      <h2>{t('contactUs.title')}</h2>
       <form
         ref={form}
         autoComplete="on"
@@ -44,14 +50,14 @@ export default function ContactUs() {
         }}
       >
         <label htmlFor="user_name">
-          Ім’я <span className={styles.required}>*</span>
+          {t('contactUs.name')} <span className={styles.required}>*</span>
         </label>
         <input
           type="text"
           id="user_name"
           name="user_name"
-          placeholder="Ваше ім’я"
-          title="Введіть ваше ім'я"
+          placeholder={t('contactUs.namePlaceholder')}
+          title={t('contactUs.nameHint')}
           autoComplete="name"
           required
         />
@@ -64,36 +70,36 @@ export default function ContactUs() {
           id="user_email"
           name="user_email"
           placeholder="example@gmail.com"
-          title="Введіть ваш email"
+          title={t('contactUs.emailHint')}
           autoComplete="email"
           required
         />
 
-        <label htmlFor="user_tel">Телефон</label>
+        <label htmlFor="user_tel">{t('contactUs.phone')}</label>
         <input
           type="tel"
           id="user_tel"
           name="user_tel"
           placeholder="+38..."
-          title="За бажанням введіть ваш телефон"
+          title={t('contactUs.phoneHint')}
           autoComplete="tel"
         />
 
         <label htmlFor="message">
-          Повідомлення <span className={styles.required}>*</span>
+          {t('contactUs.message')} <span className={styles.required}>*</span>
         </label>
         <textarea
           rows={4}
           id="message"
           name="message"
-          placeholder="Ваше повідомлення"
-          title="Напишіть ваше питання"
+          placeholder={t('contactUs.messagePlaceholder')}
+          title={t('contactUs.messageHint')}
           autoComplete="off"
           required
         />
 
         <button type="submit" disabled={isSending}>
-          {isSending ? 'Надсилання...' : 'Надіслати'}
+          {isSending ? t('contactUs.sending') : t('contactUs.send')}
         </button>
       </form>
 

@@ -1,7 +1,9 @@
+import Head from 'next/head'
 import Products from '@/components/Products'
 import CanonicalLink from '@/components/CanonicalLink'
 import { getProducts } from '@/api/index'
 import { PRODUCT_CATEGORIES, CATEGORY_ID_BY_URL } from '@/utils/constants'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export async function getServerSideProps(context) {
   const { slug } = context.params
@@ -23,8 +25,13 @@ export async function getServerSideProps(context) {
 
 
 export default function ProductsPage({ products, totalPages, selectedCategory, slug }) {
+  const { t } = useTranslation()
+
   return (
     <>
+      <Head>
+        <title>{t('meta.categoryTitle', { category: t(`categories.${selectedCategory}`) })}</title>
+      </Head>
       <CanonicalLink path={`/products/${slug}`} />
       <Products
         products={products}

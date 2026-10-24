@@ -3,13 +3,17 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { RU_LOCALE_READY } from '@/utils/constants'
 import Icon from './icon'
 import styles from './Header.module.css' 
 import HeaderCart from './HeaderCart'
+import LanguageSwitcher from './LanguageSwitcher'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const pathname = usePathname()
+  const { t } = useTranslation()
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
   const closeMenu = () => setIsMenuOpen(false)
@@ -25,7 +29,7 @@ export default function Header() {
       <div className={`${styles['header-container']} container`}>
         <div className={styles['header-burger']} onClick={toggleMenu}>
           <Icon
-            aria-label={isMenuOpen ? 'Закрити меню' : 'Відкрити меню'}
+            aria-label={isMenuOpen ? t('header.closeMenu') : t('header.openMenu')}
             size={24}
             name={isMenuOpen ? 'close' : 'burger'}
           />
@@ -35,7 +39,7 @@ export default function Header() {
           <img src="/logo.webp" alt="logo" />
           <div className={styles['logo-text']}>
             <div className={styles['store-name']}>ПЕРУКИ<br />ТУТ</div>
-            <span>МАГАЗИН ПЕРУК</span>
+            <span>{t('header.storeSubtitle')}</span>
           </div>
         </div>
 
@@ -47,7 +51,7 @@ export default function Header() {
                 className={isActive('/') ? styles['active'] : ''}
                 onClick={closeMenu}
               >
-                Головна
+                {t('header.home')}
               </Link>
             </li>
             <li>
@@ -56,7 +60,7 @@ export default function Header() {
                 className={isActive('/products') ? styles['active'] : ''}
                 onClick={closeMenu}
               >
-                Каталог
+                {t('header.catalog')}
               </Link>
             </li>
             <li>
@@ -65,7 +69,7 @@ export default function Header() {
                 className={isActive('/about') ? styles['active'] : ''}
                 onClick={closeMenu}
               >
-                Про нас
+                {t('header.about')}
               </Link>
             </li>
             <li>
@@ -74,13 +78,16 @@ export default function Header() {
                 className={isActive('/contact') ? styles['active'] : ''}
                 onClick={closeMenu}
               >
-                Контакти
+                {t('header.contacts')}
               </Link>
             </li>
           </ul>
         </div>
 
-        <HeaderCart />
+        <div className={styles['header-actions']}>
+          {RU_LOCALE_READY && <LanguageSwitcher />}
+          <HeaderCart />
+        </div>
       </div>
     </header>
   )

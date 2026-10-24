@@ -4,6 +4,7 @@ import styles from './Filters.module.css'
 import Icon from './icon'
 import { useState, useEffect } from 'react'
 import { useFilters } from '@/context'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export default function Filters({ selectedCategory }) {
   const {
@@ -31,6 +32,7 @@ export default function Filters({ selectedCategory }) {
     togglePriceOpen,
     toggleLengthOpen
   } = useFilters();
+  const { t } = useTranslation()
   // Local state for price inputs (before applying)
   const [localMinPrice, setLocalMinPrice] = useState(minPrice)
   const [localMaxPrice, setLocalMaxPrice] = useState(maxPrice)
@@ -47,12 +49,12 @@ export default function Filters({ selectedCategory }) {
     <div className={styles.filters}>
       <div className={styles['filters-btn-wrapper']} onClick={toggleFiltersOpen}>
         <Icon name="filter" />
-        <div className={styles['filters-btn']}>Фільтри</div>
+        <div className={styles['filters-btn']}>{t('filters.title')}</div>
       </div>
 
       <div className={`${styles['filter-menu']} ${isFiltersOpen ? styles.active : ''}`}>
         <div className={styles['filter-heading']}>
-          <h2>Фільтри</h2>
+          <h2>{t('filters.title')}</h2>
           <div className={styles['close-btn']} onClick={toggleFiltersOpen}>
             <Icon name="close" />
           </div>
@@ -61,7 +63,7 @@ export default function Filters({ selectedCategory }) {
         {/* Матеріал */}
         <div className={styles['filter-material']}>
           <div className={styles['material-heading']}>
-            <h2>Матеріал</h2>
+            <h2>{t('filters.material')}</h2>
             <div className={styles['material-list-btn']} onClick={toggleMaterialOpen}>
               <Icon name="arrow_down" />
             </div>
@@ -73,7 +75,7 @@ export default function Filters({ selectedCategory }) {
                 checked={selectedType.includes('1')}
                 onChange={() => toggleType(1)}
               />
-              <span>Натуральне волосся</span>
+              <span>{t('filters.natural')}</span>
             </li>
             <li>
               <input
@@ -81,7 +83,7 @@ export default function Filters({ selectedCategory }) {
                 checked={selectedType.includes('2')}
                 onChange={() => toggleType(2)}
               />
-              <span>Синтетика</span>
+              <span>{t('filters.synthetic')}</span>
             </li>
           </ul>
         </div>
@@ -89,7 +91,7 @@ export default function Filters({ selectedCategory }) {
         {/* Ціна */}
         <div className={styles['filter-price']}>
           <div className={styles['price-heading']}>
-            <h2>Ціна</h2>
+            <h2>{t('filters.price')}</h2>
             <div className={styles['price-options-btn']} onClick={ () =>{
               togglePriceOpen()
               clearPriceFilter()
@@ -120,7 +122,7 @@ export default function Filters({ selectedCategory }) {
                   }
                 }}
                 />
-                <span className={styles.at}>від</span>
+                <span className={styles.at}>{t('filters.from')}</span>
               </label>
               <div className={styles['price-separator']}></div>
               <label className={styles['max-price']} htmlFor="max-price">
@@ -142,11 +144,11 @@ export default function Filters({ selectedCategory }) {
                   }
                 }}
                 />
-                <span className={styles.to}>до</span>
+                <span className={styles.to}>{t('filters.to')}</span>
               </label>
             </div>
             <button type="button" onClick={handleApplyPriceFilter}>
-              ОК
+              {t('filters.ok')}
             </button>
           </form>
         </div>
@@ -154,7 +156,7 @@ export default function Filters({ selectedCategory }) {
         {/* Довжина */}
         <div className={styles['filter-length']}>
           <div className={styles['length-heading']}>
-            <h2>Довжина</h2>
+            <h2>{t('filters.length')}</h2>
             <div className={styles['length-list-btn']} onClick={toggleLengthOpen}>
               <Icon name="arrow_down" />
             </div>
@@ -166,7 +168,7 @@ export default function Filters({ selectedCategory }) {
                 checked={selectedLength.includes('LONG')}
                 onChange={() => toggleLength('LONG')}
               />
-              <span>Довга</span>
+              <span>{t('hairLengths.LONG')}</span>
             </li>
             <li>
               <input
@@ -174,7 +176,7 @@ export default function Filters({ selectedCategory }) {
                 checked={selectedLength.includes('MEDIUM')}
                 onChange={() => toggleLength('MEDIUM')}
               />
-              <span>Середня</span>
+              <span>{t('hairLengths.MEDIUM')}</span>
             </li>
             <li>
               <input
@@ -182,7 +184,7 @@ export default function Filters({ selectedCategory }) {
                 checked={selectedLength.includes('SHORT')}
                 onChange={() => toggleLength('SHORT')}
               />
-              <span>Коротка</span>
+              <span>{t('hairLengths.SHORT')}</span>
             </li>
           </ul>
         </div>
@@ -192,10 +194,10 @@ export default function Filters({ selectedCategory }) {
           setLocalMinPrice('')
           setLocalMaxPrice('')
           }}>
-          СКИНУТИ ФІЛЬТРИ
+          {t('filters.reset')}
         </div>      
         <div className={styles['apply-btn']} onClick={toggleFiltersOpen}>
-          ЗАСТОСУВАТИ ФІЛЬТРИ
+          {t('filters.apply')}
         </div>
         </div>
       </div>

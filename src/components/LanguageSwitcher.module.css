@@ -1,0 +1,81 @@
+.switcher {
+  position: relative;
+}
+
+.trigger {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px 4px 10px;
+  border: 1px solid var(--text-extra-muted);
+  border-radius: var(--border-radius-md);
+  background-color: var(--background-extra-light);
+  color: var(--text-dark);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.trigger:hover,
+.trigger.open {
+  border-color: var(--primary-color);
+}
+
+.arrow {
+  transition: transform 0.2s ease;
+}
+
+.trigger.open .arrow {
+  transform: rotate(180deg);
+}
+
+.options {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 150px;
+  padding: 4px;
+  border: 1px solid var(--text-extra-muted);
+  border-radius: var(--border-radius-md);
+  background-color: var(--background-extra-light);
+  box-shadow: var(--shadow-sm);
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: all 0.2s ease;
+  z-index: 12;
+}
+
+.options.visible {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.options a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: var(--border-radius-sm);
+  color: var(--text-dark);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.options a:hover {
+  background-color: var(--background-muted);
+}
+
+.options a.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.code {
+  min-width: 22px;
+  font-size: 12px;
+  font-weight: 700;
+}

@@ -9,7 +9,7 @@ export function CartProvider({ children }) {
   const [cartItems, setCartItems, isReady] = useLocalStorage('cart', [])
 
   const addToCart = (productData) => {
-    const { product_id, variantId, name, price, image, article, quantity = 1, color, category} = productData
+    const { product_id, variantId, name, name_ru, price, image, article, quantity = 1, color, category} = productData
     const cartItemId = `${product_id}-${variantId}`
 
     const existingItemIndex = cartItems.findIndex(item => item.id === cartItemId)
@@ -24,6 +24,7 @@ export function CartProvider({ children }) {
         product_id,
         variantId,
         name,
+        name_ru,
         price,
         image,
         article,

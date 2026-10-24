@@ -11,6 +11,8 @@ import styles from '@/styles/pages.module.css'
 import { SERVICE_ID, TEMPLATE_ID_ORDER, PUBLIC_KEY, CATEGORIES_URLS } from '@/utils/constants'
 import emailjs from '@emailjs/browser'
 import { useLocalStorage } from '@/hooks/useLocalStorage'
+import { useTranslation } from '@/hooks/useTranslation'
+import { getLocalizedField } from '@/utils/i18n'
 export default function CartPage() {
   const {
     cartItems,
@@ -20,6 +22,7 @@ export default function CartPage() {
     updateQuantity,
     clearCart,
   } = useCart()
+  const { t, locale } = useTranslation()
   
   const [showModal, setShowModal] = useState(false)
   const contactForm = useRef()
@@ -47,7 +50,7 @@ async function getPromoPrice(e) {
   if (promoApplied) {
     setIsError(true);
     setShowMessage(true);
-    setPromoMessage("Вибачте, Ви вже застосували знижку");
+    setPromoMessage(t('cart.promoAlreadyUsed'));
     setTimeout(() => {
       setShowMessage(false);
       clearInput(e);
@@ -69,7 +72,7 @@ async function getPromoPrice(e) {
   if (!response.ok) {
     setIsError(true);
     setShowMessage(true);
-    setPromoMessage("Промокод недійсний");
+    setPromoMessage(t('cart.promoInvalid'));
     setTimeout(() => {
       setShowMessage(false);
       clearInput(e);
@@ -79,7 +82,7 @@ async function getPromoPrice(e) {
 
   setIsError(false);
   setShowMessage(true);
-  setPromoMessage("Промокод застосовано");
+  setPromoMessage(t('cart.promoApplied'));
   setTimeout(() => {
     setShowMessage(false);
     clearInput(e);
@@ -97,7 +100,7 @@ async function getPromoPrice(e) {
     setIsSending(true)
     try {
       await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID_ORDER, contactForm.current, PUBLIC_KEY)
-      setAlert({ type: 'success', message: '✅ Запит на дзвінок надіслано!' })
+      setAlert({ type: 'success', message: t('cart.callRequested') })
       contactForm.current.reset()
       setTimeout(() => {
         clearCart()
@@ -106,7 +109,7 @@ async function getPromoPrice(e) {
         resetPromo()
       }, 4000)
     } catch {
-      setAlert({ type: 'error', message: '❌ Помилка при надсиланні.' })
+      setAlert({ type: 'error', message: t('cart.sendError') })
       setTimeout(() => setAlert(null), 4000)
     } finally {
       setIsSending(false)
@@ -116,16 +119,16 @@ async function getPromoPrice(e) {
   return (
     <>
       <Head>
-        <title>Кошик | Перуки Тут</title>
+        <title>{t('meta.cartTitle')}</title>
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <CanonicalLink path="/cart" />
 
       <div className={`${styles['cart-page']} container`}>
-      <h1>Кошик</h1>
+      <h1>{t('cart.title')}</h1>
 
       {cartItems.length === 0 ? (
-        <p>Ваш кошик порожній</p>
+        <p>{t('cart.empty')}</p>
       ) : (
         <>
           <div className={styles['cart-items']}>
@@ -135,14 +138,14 @@ async function getPromoPrice(e) {
                   <img
                     className={styles['cart-img']}
                     src={getImageUrlByKey(item.image, { width: 100, height: 150, quality: 50 })}
-                    alt={item.name}
+                    alt={getLocalizedField(item, 'name', locale)}
                   />
                 </Link>
                 <div className={styles['item-info']}>
-                  <h4>{item.name}</h4>
-                  <h4>Колір: {item.color}</h4>
-                  <h4>Артикул: {item.article}</h4>
-                  <p className={styles['price']}>{item.price} грн</p>
+                  <h4>{getLocalizedField(item, 'name', locale)}</h4>
+                  <h4>{t('cart.color', { color: item.color })}</h4>
+                  <h4>{t('cart.article', { article: item.article })}</h4>
+                  <p className={styles['price']}>{item.price} {t('currency')}</p>
                 </div>
 
                 <div className={styles['quantity-controls']}>
@@ -156,7 +159,7 @@ async function getPromoPrice(e) {
                 </div>
 
                 <button className={styles['remove-btn']} onClick={() => removeFromCart(item.id)}>
-                  Видалити
+                  {t('cart.remove')}
                 </button>
               </div>
             ))}
@@ -171,29 +174,29 @@ async function getPromoPrice(e) {
                     type="text"
                     id="promo_code"
                     name="promo_code"
-                    placeholder="Введіть промокод"
-                    title="Введіть промокод"
+                    placeholder={t('cart.promoPlaceholder')}
+                    title={t('cart.promoPlaceholder')}
                     className={styles.promoInput}
                   />
               <button 
               type="submit" 
               className={styles.promoSubmit}
               >
-                Застосувати промокод
+                {t('cart.promoApply')}
               </button>    
             </form>
             {showMessage && <p className={`${styles.promoMessage} ${isError ? styles.error : ''}`}>{promoMessage}</p>}
-            <p>Товарів у кошику: {itemCount}</p>
-            <h2>Загальна сума: {discountedTotal ?? total} грн</h2>
+            <p>{t('cart.itemsCount', { count: itemCount })}</p>
+            <h2>{t('cart.total', { total: discountedTotal ?? total })}</h2>
             <Link href="/checkout" className={styles['checkout-btn']}>
-              Оформити замовлення
+              {t('cart.checkout')}
             </Link>
           </div>
 
           {showModal && (
             <div className={styles['modal-wrapper']}>
               <div className={styles['modal-heading']}>
-                <h2>Оформити замовлення</h2>
+                <h2>{t('cart.checkout')}</h2>
                 <Icon onClick={() => setShowModal(false)} className={styles['close-btn']} name="close" />
               </div>
 
@@ -207,30 +210,30 @@ async function getPromoPrice(e) {
                 }}
               >
                 <div className={styles['client-name']}>
-                  <label htmlFor="name">Ім’я</label>
+                  <label htmlFor="name">{t('cart.name')}</label>
                   <input
                     type="text"
                     id="name"
                     name="user_name"
-                    placeholder="Ваше ім’я"
-                    title="Введіть ваше ім’я"
+                    placeholder={t('cart.namePlaceholder')}
+                    title={t('cart.nameHint')}
                     autoComplete="name"
                   />
                 </div>
 
                 <div className={styles['client-phone']}>
-                  <label htmlFor="phone">Номер телефону</label>
+                  <label htmlFor="phone">{t('cart.phone')}</label>
                   <input
                     type="tel"
                     id="phone"
                     name="user_tel"
                     placeholder="+380..."
-                    title="Введіть ваш номер телефону"
+                    title={t('cart.phoneHint')}
                     autoComplete="tel"
                   />
                 </div>
 
-                <div className={styles['contact-options-selector']}>або</div>
+                <div className={styles['contact-options-selector']}>{t('cart.or')}</div>
 
                 <div className={styles['client-email']}>
                   <label htmlFor="email">Email</label>
@@ -239,12 +242,12 @@ async function getPromoPrice(e) {
                     id="email"
                     name="user_email"
                     placeholder="example@gmail.com"
-                    title="Введіть ваш email"
+                    title={t('cart.emailHint')}
                     autoComplete="email"
                   />
                 </div>
 
-                <p>Менеджер зв’яжеться з вами та допоможе оформити замовлення</p>
+                <p>{t('cart.managerHint')}</p>
 
                 <input
                   type="hidden"
@@ -258,7 +261,7 @@ async function getPromoPrice(e) {
                 />
 
                 <button type="submit" disabled={isSending}>
-                  Передзвонити мені
+                  {t('cart.callMe')}
                 </button>
               </form>
 

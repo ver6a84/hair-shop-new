@@ -2,11 +2,8 @@
 
 import { useState, useEffect } from 'react'
 import { useFilterState, useFilterActions } from '@/context'
-import {
-  CATEGORIES_TRANSLATIONS,
-  PRODUCT_CATEGORIES,
-  HAIR_LENGTHS_TRANSLATIONS
-} from "@/utils/constants"
+import { PRODUCT_CATEGORIES } from "@/utils/constants"
+import { useTranslation } from '@/hooks/useTranslation'
 import Breadcrumb from "./BreadCrumb"
 import Filters from "./Filters"
 import Sort from "./Sort"
@@ -18,6 +15,7 @@ import Link from 'next/link'
 export default function Products({ products, totalPages, selectedCategory }) {
   const { selectedType, selectedLength, currentPage } = useFilterState()
   const { buildFilterUrl } = useFilterActions()
+  const { t } = useTranslation()
 
   const safeProducts = Array.isArray(products) ? products : []
 
@@ -32,7 +30,7 @@ export default function Products({ products, totalPages, selectedCategory }) {
 
   return (
     <div className={`${styles['category-page']} container`}>
-      <h1>{CATEGORIES_TRANSLATIONS[selectedCategory]}</h1>
+      <h1>{t(`categories.${selectedCategory}`)}</h1>
 
       <Breadcrumb categoryId={selectedCategory} />
 
@@ -52,7 +50,7 @@ export default function Products({ products, totalPages, selectedCategory }) {
           return (
             <Link key={length} href={href}>
               <button className={isSelected ? styles.selected : ''}>
-                {HAIR_LENGTHS_TRANSLATIONS[length]}
+                {t(`hairLengths.${length}`)}
               </button>
             </Link>
           )
@@ -68,7 +66,7 @@ export default function Products({ products, totalPages, selectedCategory }) {
         <div className={styles['cards-grid-wrapper']}>
           {width > 768 && <Sort />}
           <div className={styles['cards-grid']}>
-            {!safeProducts.length && <p>Немає продуктів</p>}
+            {!safeProducts.length && <p>{t('products.empty')}</p>}
             {safeProducts.map(product => (
               <ProductCard key={product.id} product={product} />
             ))}

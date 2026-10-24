@@ -1,21 +1,28 @@
 'use client'
 
+import Head from 'next/head'
 import CanonicalLink from '@/components/CanonicalLink'
 import Icon from '@/components/icon'
 import styles from '@/styles/pages.module.css'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export default function Contact() {
+  const { t } = useTranslation()
+
   return (
     <>
+    <Head>
+      <title>{t('meta.contactTitle')}</title>
+    </Head>
     <CanonicalLink path="/contact" />
     <div className={`${styles['contact-page']} container`}>
-      <h1>Контакти</h1>
+      <h1>{t('contact.title')}</h1>
 
       <div className={styles['contact-info']}>
         <div className={styles['contact-item']}>
           <Icon name="phone" />
           <div>
-            <h3>Телефон</h3>
+            <h3>{t('contact.phone')}</h3>
             <a href="tel:+380932054774">+380 (93) 205-47-74</a>
             <a href="tel:+380634367991">+380 (63) 436-79-91</a>
           </div>
@@ -60,9 +67,9 @@ export default function Contact() {
         <div className={styles['contact-item']}>
           <Icon name="location" />
           <div>
-            <h3>Адреса</h3>
+            <h3>{t('contact.address')}</h3>
             <a href='https://www.google.com/maps/place/%D0%9F%D0%B5%D1%80%D1%83%D0%BA%D0%B8+%D0%B2+%D0%92%D1%96%D0%BD%D0%BD%D0%B8%D1%86%D1%96/@49.2387066,28.4998818,17z/data=!3m1!4b1!4m6!3m5!1s0x472d5b2776f32dfb:0x83e6f17cf7b0e329!8m2!3d49.2387066!4d28.4998818!16s%2Fg%2F11kkw9pjdb?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'>
-              Центральний ринок, Проспект Коцюбинського, 13, Вінниця, Вінницька область, Україна, 21000
+              {t('contact.fullAddress')}
             </a>
           </div>
         </div>
@@ -71,8 +78,8 @@ export default function Contact() {
       <div className={styles['contact-item']}>
         <Icon name="calendar" />
         <div>
-          <h3>Графік роботи</h3>
-          <p>Вт–Нд: 9:00 – 15:30</p>
+          <h3>{t('contact.schedule')}</h3>
+          <p>{t('contact.scheduleValue')}</p>
         </div>
       </div>
     </div>

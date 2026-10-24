@@ -2,10 +2,12 @@
 
 import Link from 'next/link'
 import styles from './CategoriesCard.module.css'
-import { CATEGORIES_TRANSLATIONS, CATEGORIES_URLS } from '@/utils/constants'
+import { CATEGORIES_URLS } from '@/utils/constants'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export default function CategoriesCard({ categoryId }) {
-  const title = CATEGORIES_TRANSLATIONS[categoryId]
+  const { t } = useTranslation()
+  const title = t(`categories.${categoryId}`)
   const url = CATEGORIES_URLS[categoryId]
   const srcSet = `
   ${url}.webp 190w,

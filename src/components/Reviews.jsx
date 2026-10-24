@@ -6,6 +6,7 @@ import Icon from './icon'
 import { baseUrl } from '@/api/index'
 import Pagination from '@/components/Pagination'
 import { useSearchParams } from 'next/navigation'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export default function Reviews({ product_id }) {
   const [reviews, setReviews] = useState([])
@@ -18,6 +19,7 @@ export default function Reviews({ product_id }) {
   const reviewsRef = useRef(null)
   const [currentPage, setCurrentPage] = useState(1)
   const pageSize = 4
+  const { t } = useTranslation()
 
   const searchParams = useSearchParams()
   const scrollTo = searchParams.get('scrollTo')
@@ -64,7 +66,7 @@ export default function Reviews({ product_id }) {
 
   const handleAddReview = async () => {
     if (!newRating) {
-      setIsAlertMessage('Будь ласка, оберіть рейтинг')
+      setIsAlertMessage(t('reviews.ratingRequired'))
       return
     }
 
@@ -73,7 +75,7 @@ export default function Reviews({ product_id }) {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          name: reviewerName.trim() || 'Анонім',
+          name: reviewerName.trim() || t('reviews.anonymous'),
           rating: newRating,
           review: newReview.trim() || null,
           product_id
@@ -94,17 +96,17 @@ export default function Reviews({ product_id }) {
       setIsAlertMessage('')
     } catch (err) {
       console.error(err)
-      setIsAlertMessage('Щось пішло не так. Спробуйте ще раз.')
+      setIsAlertMessage(t('reviews.error'))
     }
   }
 
   return (
     <div className={styles['reviews-wrapper']}>
       <div className={styles['reviews-heading']}>
-        <h2>Відгуки клієнтів</h2>
-        <div className={styles['add-review-btn']} title="Додати відгук" onClick={() => setIsFormAddReview(true)}>
+        <h2>{t('reviews.title')}</h2>
+        <div className={styles['add-review-btn']} title={t('reviews.add')} onClick={() => setIsFormAddReview(true)}>
   <span className={styles['review-label']}>
-    ЗАЛИШИТИ ВІДГУК
+    {t('reviews.leave')}
   </span>
   <span className={styles['review-icon']}>
     <Icon name="plus_white" />
@@ -117,7 +119,7 @@ export default function Reviews({ product_id }) {
       {isFormAddReview && (
         <div className={styles['review-form-wrapper']}>
           <div className={styles['review-form-heading']}>
-            <h2>Залишити відгук</h2>
+            <h2>{t('reviews.formTitle')}</h2>
             <Icon
               className={styles['close-review-form']}
               name="close"
@@ -128,16 +130,16 @@ export default function Reviews({ product_id }) {
           <form className={styles['review-form']}>
             <input
               type="text"
-              placeholder="Ваше ім’я"
+              placeholder={t('reviews.namePlaceholder')}
               value={reviewerName}
               onChange={(e) => setReviewerName(e.target.value)}
             />
             <div className={styles.rating}>
-              <span>Оберіть рейтинг:</span>
+              <span>{t('reviews.chooseRating')}</span>
               <div className={styles['rating-stars']}>
                 {[1, 2, 3, 4, 5].map((star) => (
                   <span
-                    aria-label={`Оцінка ${star} з 5`}
+                    aria-label={t('reviews.ratingLabel', { star })}
                     role="button"
                     tabIndex={0}
                     className={`${styles.star} ${star <= (hoveredStar || newRating) ? styles.active : ''}`}
@@ -154,12 +156,12 @@ export default function Reviews({ product_id }) {
             </div>
             <textarea
               rows={4}
-              placeholder="Коментар"
+              placeholder={t('reviews.commentPlaceholder')}
               value={newReview}
               onChange={(e) => setNewReview(e.target.value)}
             />
             <button type="button" onClick={handleAddReview}>
-              ЗАЛИШИТИ ВІДГУК
+              {t('reviews.leave')}
             </button>
           </form>
         </div>
@@ -173,7 +175,7 @@ export default function Reviews({ product_id }) {
               <div className={styles['rating-date']}>
                 <div className={styles['review-rating']}>{'⭐'.repeat(r.rating)}</div>
                 <div className={styles['review-date']}>
-                  {new Date(r.created_at).toLocaleDateString('uk-UA', {
+                  {new Date(r.created_at).toLocaleDateString(t('dateLocale'), {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric'

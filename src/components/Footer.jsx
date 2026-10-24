@@ -1,8 +1,11 @@
 import Link from 'next/link'
 import styles from './Footer.module.css'
 import Icon from './icon'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export default function Footer() {
+  const { t } = useTranslation()
+
   return (
     <footer className={styles.footer}>
       <div className={`${styles['footer-container']} container`}>
@@ -11,7 +14,7 @@ export default function Footer() {
             <img src="/logo.webp" alt="logo" />
             <div className={styles['logo-text']}>
               <div className={styles['store-name']}>ПЕРУКИ<br />ТУТ</div>
-              <span>MAГАЗИН ПЕРУК</span>
+              <span>{t('header.storeSubtitle')}</span>
             </div>
           </div>
 
@@ -36,34 +39,34 @@ export default function Footer() {
 
         <div className={styles['products-feedback']}>
           <div className={styles.feedback}>
-            <h3>Виникли запитання?</h3>
+            <h3>{t('footer.questions')}</h3>
             <p>
-              Ви можете <Link className={styles['feedback-link']} href="/contact_us">написати нам</Link> для зворотнього зв'язку
+              {t('footer.writeUsBefore')} <Link className={styles['feedback-link']} href="/contact_us">{t('footer.writeUsLink')}</Link> {t('footer.writeUsAfter')}
             </p>
-            <p>Щоденно з 9.00 до 21.00</p>
+            <p>{t('footer.dailyHours')}</p>
           </div>
 
           <div className={styles['products-help']}>
             <div className={styles.products}>
               <ul>
-                <h4>Наші товари</h4>
-                <li><Link href="/products/wigs">Перуки</Link></li>
-                <li><Link href="/products/tails">Хвостики</Link></li>
-                <li><Link href="/products/toppers">Топери</Link></li>
+                <h4>{t('footer.ourProducts')}</h4>
+                <li><Link href="/products/wigs">{t('categories.1')}</Link></li>
+                <li><Link href="/products/tails">{t('categories.2')}</Link></li>
+                <li><Link href="/products/toppers">{t('categories.3')}</Link></li>
               </ul>
             </div>
             <div className={styles.help}>
               <ul>
-                <h4>Допомога</h4>
-                <li><Link href="/delivery-ukraine">Доставка та оплата</Link></li>
-                <li><Link href="/return">Обмін та повернення</Link></li>
-                <li><Link href="/yak-obraty-peruku">Як обрати перуку</Link></li>
-                <li><Link href="/about">Про нас</Link></li>
-                <li><Link href="/contact">Контакти</Link></li>
+                <h4>{t('footer.help')}</h4>
+                <li><Link href="/delivery-ukraine">{t('footer.delivery')}</Link></li>
+                <li><Link href="/return">{t('footer.return')}</Link></li>
+                <li><Link href="/yak-obraty-peruku">{t('footer.howToChoose')}</Link></li>
+                <li><Link href="/about">{t('footer.about')}</Link></li>
+                <li><Link href="/contact">{t('footer.contacts')}</Link></li>
               </ul>
             </div>
             <div className={styles.contacts}>
-              <h4>Контакти</h4>
+              <h4>{t('footer.contacts')}</h4>
               <div className={styles['contact-item']}>
                 <Icon size={18} className={styles['contact-icon']} name="phone" />
                 <div>
@@ -78,12 +81,12 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Проспект Коцюбинського, 13, Вінниця
+                  {t('footer.address')}
                 </a>
               </div>
               <div className={styles['contact-item']}>
                 <Icon size={18} className={styles['contact-icon']} name="calendar" />
-                <span>Вт–Нд: 9:00 – 15:30</span>
+                <span>{t('footer.schedule')}</span>
               </div>
             </div>
           </div>
@@ -92,7 +95,7 @@ export default function Footer() {
 
       <div className={styles.copyright}>
         <Icon name="copyright" size={18} />
-        <p>Перуки тут 2025</p>
+        <p>{t('footer.copyright')}</p>
       </div>
     </footer>
   )

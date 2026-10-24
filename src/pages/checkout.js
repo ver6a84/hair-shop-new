@@ -8,11 +8,14 @@ import Link from 'next/link'
 import { useState } from 'react'
 import styles from '@/styles/pages.module.css'
 import { CATEGORIES_URLS } from '@/utils/constants'
+import { useTranslation } from '@/hooks/useTranslation'
+import { getLocalizedField } from '@/utils/i18n'
 
 const API_URL = 'https://api.perukytyt.com/api/checkout'
 
 export default function CheckoutPage() {
   const { cartItems, total, itemCount, clearCart } = useCart()
+  const { t, locale } = useTranslation()
 
   const [isSending, setIsSending] = useState(false)
   const [orderComplete, setOrderComplete] = useState(false)
@@ -55,7 +58,7 @@ export default function CheckoutPage() {
       setOrderComplete(true)
       clearCart()
     } catch {
-      setError('Не вдалося оформити замовлення. Спробуйте ще раз або зверніться до нас за телефоном.')
+      setError(t('checkout.error'))
     } finally {
       setIsSending(false)
     }
@@ -65,55 +68,53 @@ export default function CheckoutPage() {
     return (
       <>
         <Head>
-          <title>Замовлення оформлено | Перуки Тут</title>
+          <title>{t('meta.checkoutSuccessTitle')}</title>
           <meta name="robots" content="noindex, nofollow" />
         </Head>
         <CanonicalLink path="/checkout" />
 
         <div className={`${styles['checkout-page']} container`}>
           <div className={styles['checkout-success']}>
-            <h1>Дякуємо за замовлення!</h1>
-            <p>
-              Ми зв&#39;яжемося з вами найближчим часом для підтвердження.
-            </p>
+            <h1>{t('checkout.thanks')}</h1>
+            <p>{t('checkout.willContact')}</p>
 
             <div className={styles['order-summary']}>
-              <h2>Деталі замовлення</h2>
+              <h2>{t('checkout.details')}</h2>
               <ul>
-                <li><strong>Ім&#39;я:</strong> {orderData.name}</li>
-                <li><strong>Телефон:</strong> {orderData.phone}</li>
+                <li><strong>{t('checkout.name')}:</strong> {orderData.name}</li>
+                <li><strong>{t('checkout.phone')}:</strong> {orderData.phone}</li>
                 {orderData.email && (
                   <li><strong>Email:</strong> {orderData.email}</li>
                 )}
-                <li><strong>Адреса доставки:</strong> {orderData.address}</li>
+                <li><strong>{t('checkout.address')}:</strong> {orderData.address}</li>
               </ul>
 
-              <h2>Товари</h2>
+              <h2>{t('checkout.items')}</h2>
               <ul>
                 {orderData.product_list.map((item, i) => (
                   <li key={i}>
-                    {item.name} — {item.quantity} шт. × {item.price} грн
+                    {item.name} — {t('checkout.itemLine', { quantity: item.quantity, price: item.price })}
                   </li>
                 ))}
               </ul>
               <p className={styles['order-total']}>
-                <strong>Загальна сума: {orderData.product_list.reduce((s, i) => s + i.price * i.quantity, 0)} грн</strong>
+                <strong>{t('checkout.total', { total: orderData.product_list.reduce((s, i) => s + i.price * i.quantity, 0) })}</strong>
               </p>
 
               {orderData.notes && (
                 <>
-                  <h2>Коментар</h2>
+                  <h2>{t('checkout.comment')}</h2>
                   <p>{orderData.notes}</p>
                 </>
               )}
             </div>
 
             <div className={styles['checkout-contacts']}>
-              <h2>Наші контакти</h2>
-              <p>Якщо у вас виникли питання, зв&#39;яжіться з нами:</p>
+              <h2>{t('checkout.ourContacts')}</h2>
+              <p>{t('checkout.questions')}</p>
               <ul>
                 <li>
-                  Телефон: <a href="tel:+380932054774">+380 (93) 205-47-74</a>,{' '}
+                  {t('checkout.phone')}: <a href="tel:+380932054774">+380 (93) 205-47-74</a>,{' '}
                   <a href="tel:+380634367991">+380 (63) 436-79-91</a>
                 </li>
                 <li>
@@ -129,7 +130,7 @@ export default function CheckoutPage() {
             </div>
 
             <Link href="/products" className={styles['checkout-continue']}>
-              Продовжити покупки
+              {t('checkout.continueShopping')}
             </Link>
           </div>
         </div>
@@ -140,46 +141,46 @@ export default function CheckoutPage() {
   return (
     <>
       <Head>
-        <title>Оформлення замовлення | Перуки Тут</title>
+        <title>{t('meta.checkoutTitle')}</title>
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <CanonicalLink path="/checkout" />
 
       <div className={`${styles['checkout-page']} container`}>
-        <h1>Оформлення замовлення</h1>
+        <h1>{t('checkout.title')}</h1>
 
         {cartItems.length === 0 ? (
           <div className={styles['checkout-empty']}>
-            <p>Ваш кошик порожній. Додайте товари, щоб оформити замовлення.</p>
+            <p>{t('checkout.emptyCart')}</p>
             <Link href="/products" className={styles['checkout-continue']}>
-              Перейти до каталогу
+              {t('checkout.toCatalog')}
             </Link>
           </div>
         ) : (
           <div className={styles['checkout-layout']}>
             <div className={styles['checkout-cart-summary']}>
-              <h2>Ваше замовлення</h2>
+              <h2>{t('checkout.yourOrder')}</h2>
               <div className={styles['checkout-items']}>
                 {cartItems.map((item) => (
                   <div key={item.id} className={styles['checkout-item']}>
                     <img
                       src={getImageUrlByKey(item.image, { width: 80, height: 100, quality: 50 })}
-                      alt={item.name}
+                      alt={getLocalizedField(item, 'name', locale)}
                       className={styles['checkout-item-img']}
                     />
                     <div className={styles['checkout-item-info']}>
                       <Link href={`/products/${CATEGORIES_URLS[item.category]}/${item.product_id}`}>
-                        {item.name}
+                        {getLocalizedField(item, 'name', locale)}
                       </Link>
-                      <span>Колір: {item.color}</span>
-                      <span>Арт.: {item.article}</span>
-                      <span>{item.quantity} шт. × {item.price} грн</span>
+                      <span>{t('checkout.color', { color: item.color })}</span>
+                      <span>{t('checkout.article', { article: item.article })}</span>
+                      <span>{t('checkout.itemLine', { quantity: item.quantity, price: item.price })}</span>
                     </div>
                   </div>
                 ))}
               </div>
               <p className={styles['order-total']}>
-                Товарів: {itemCount} | <strong>Разом: {total} грн</strong>
+                {t('checkout.summary', { count: itemCount })} <strong>{t('checkout.summaryTotal', { total })}</strong>
               </p>
             </div>
 
@@ -188,17 +189,17 @@ export default function CheckoutPage() {
               onSubmit={handleSubmit}
               autoComplete="on"
             >
-              <h2>Контактна інформація</h2>
+              <h2>{t('checkout.contactInfo')}</h2>
 
               <div className={styles['checkout-field']}>
                 <label htmlFor="user_name">
-                  Ім&#39;я <span className={styles['required']}>*</span>
+                  {t('checkout.name')} <span className={styles['required']}>*</span>
                 </label>
                 <input
                   type="text"
                   id="user_name"
                   name="user_name"
-                  placeholder="Ваше ім'я та прізвище"
+                  placeholder={t('checkout.namePlaceholder')}
                   autoComplete="name"
                   required
                 />
@@ -206,7 +207,7 @@ export default function CheckoutPage() {
 
               <div className={styles['checkout-field']}>
                 <label htmlFor="user_phone">
-                  Телефон <span className={styles['required']}>*</span>
+                  {t('checkout.phone')} <span className={styles['required']}>*</span>
                 </label>
                 <input
                   type="tel"
@@ -231,30 +232,30 @@ export default function CheckoutPage() {
 
               <div className={styles['checkout-field']}>
                 <label htmlFor="user_address">
-                  Адреса доставки <span className={styles['required']}>*</span>
+                  {t('checkout.address')} <span className={styles['required']}>*</span>
                 </label>
                 <input
                   type="text"
                   id="user_address"
                   name="user_address"
-                  placeholder="Місто, відділення Нової пошти або адреса"
+                  placeholder={t('checkout.addressPlaceholder')}
                   autoComplete="street-address"
                   required
                 />
               </div>
 
               <div className={styles['checkout-field']}>
-                <label htmlFor="user_notes">Коментар до замовлення</label>
+                <label htmlFor="user_notes">{t('checkout.notes')}</label>
                 <textarea
                   id="user_notes"
                   name="user_notes"
                   rows="3"
-                  placeholder="Побажання, уточнення або додаткова інформація"
+                  placeholder={t('checkout.notesPlaceholder')}
                 />
               </div>
 
               <p className={styles['checkout-hint']}>
-                Після оформлення наш менеджер зв&#39;яжеться з вами для підтвердження замовлення та уточнення деталей доставки.
+                {t('checkout.hint')}
               </p>
 
               {error && (
@@ -266,7 +267,7 @@ export default function CheckoutPage() {
                 disabled={isSending}
                 className={styles['checkout-submit']}
               >
-                {isSending ? 'Відправка...' : 'Підтвердити замовлення'}
+                {isSending ? t('checkout.sending') : t('checkout.submit')}
               </button>
             </form>
           </div>

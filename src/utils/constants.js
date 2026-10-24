@@ -1,6 +1,16 @@
 // App constants
 export const SITE_URL = 'https://perukytut.com.ua'
 
+// Locales
+export const LOCALES = {
+  UK: 'uk',
+  RU: 'ru'
+}
+export const DEFAULT_LOCALE = LOCALES.UK
+// while false, /ru pages are noindex and not linked via hreflang/sitemap/language switcher.
+// switch to true once the static texts are translated to russian
+export const RU_LOCALE_READY = true
+
 export const APP_NAME = 'Hair Shop'
 export const APP_VERSION = '1.0.0'
 
@@ -41,28 +51,6 @@ export const CATEGORY_ID_BY_URL = {
   [CATEGORIES_URLS[PRODUCT_CATEGORIES.WIGS]]: PRODUCT_CATEGORIES.WIGS,
   [CATEGORIES_URLS[PRODUCT_CATEGORIES.TAILS]]: PRODUCT_CATEGORIES.TAILS,
   [CATEGORIES_URLS[PRODUCT_CATEGORIES.TOPPERS]]: PRODUCT_CATEGORIES.TOPPERS
-};
-
-export const CATEGORIES_TRANSLATIONS = {
-  [PRODUCT_CATEGORIES.WIGS]: 'Перуки',
-  [PRODUCT_CATEGORIES.TAILS]: 'Хвостики',
-  [PRODUCT_CATEGORIES.TOPPERS]: 'Топери'
-};
-
- export const COLOR_CATEGORIES_TRANSLATIONS = {
-  [COLOR_CATEGORIES.LIGHT]: 'Світлий',
-  [COLOR_CATEGORIES.DARK]: 'Темний'
-};
-
-export const HAIR_TYPES_TRANSLATIONS = {
-  [HAIR_TYPES.NATURAL]: 'Натуральний',
-  [HAIR_TYPES.SYNTHETIC]: 'Синтетичний'
-};
-
- export const HAIR_LENGTHS_TRANSLATIONS = {
-  SHORT: 'Коротка',
-  MEDIUM: 'Середня',
-  LONG: 'Довга'
 };
 
 // Routes

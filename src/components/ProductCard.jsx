@@ -4,13 +4,17 @@ import { useState, useRef } from 'react'
 import Link from 'next/link'
 import styles from './ProductCard.module.css'
 import { getImageUrlByKey } from '@/api/images'
-import { HAIR_TYPES_TRANSLATIONS, CATEGORIES_URLS } from '@/utils/constants'
+import { CATEGORIES_URLS } from '@/utils/constants'
+import { getLocalizedField } from '@/utils/i18n'
+import { useTranslation } from '@/hooks/useTranslation'
 import Icon from './icon'
 import Rating from '@/components/Rating.jsx'
 
 export default function ProductCard({ product }) {
   const [selectedVariant, setSelectedVariant] = useState(0)
   const variantsRef = useRef(null)
+  const { t, locale } = useTranslation()
+  const productName = getLocalizedField(product, 'display_name', locale)
 
   const scrollLeft = () => {
     variantsRef.current?.scrollBy({ left: -85, behavior: 'smooth' })
@@ -47,13 +51,13 @@ export default function ProductCard({ product }) {
             sizes="(max-width: 600px) 160px, 300px"
             width={400}
             height={600}
-            alt={product.display_name}
+            alt={productName}
             loading="lazy"
             decoding="async"
             className={styles['product-main-image']}
             />
             <div className={styles['product-material']}>
-              {HAIR_TYPES_TRANSLATIONS[product.type]}
+              {t(`hairTypes.${product.type}`)}
             </div>
           </div>
         </Link>
@@ -70,11 +74,11 @@ export default function ProductCard({ product }) {
                   className={`${styles['variant-thumbnail']} ${selectedVariant === index ? styles.active : ''}`}
                   onClick={(e) => handleVariantClick(e, index)}
                   tabIndex="-1"
-                  aria-label={`Варіант ${index + 1}`}
+                  aria-label={t('products.variant', { index: index + 1 })}
                 >
                  <img
                     src={getImageUrlByKey(variant.images[0], { width: 60, height: 60, quality: 100 })}
-                    alt={`${product.display_name} variant ${index + 1}`}
+                    alt={`${productName} variant ${index + 1}`}
                     title={`${variant.color}`}
                     loading="lazy"
                   />
@@ -102,7 +106,7 @@ export default function ProductCard({ product }) {
         href={`/products/${categorySlug}/${product.id}`} 
         className={styles['product-card-link']}
         >
-          <h3>{product.display_name}</h3>
+          <h3>{productName}</h3>
         </Link>
 
         {/* <div className={styles.promo}>
@@ -112,7 +116,7 @@ export default function ProductCard({ product }) {
           </p>
         </div> */}
 
-        <p className={styles['product-price']}>{selected.price} грн</p>
+        <p className={styles['product-price']}>{selected.price} {t('currency')}</p>
       </div>
     </div>
   )

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import CanonicalLink from '@/components/CanonicalLink'
 import { getProduct } from '@/api'
 import { useState, useRef } from 'react'
+import { useTranslation } from '@/hooks/useTranslation'
 import { getImageUrlByKey } from '@/api/images'
 import { useCart } from '@/context/CartContext'
 import Icon from '@/components/icon'
@@ -10,11 +11,10 @@ import Slider from 'react-slick'
 import Reviews from '@/components/Reviews'
 import Rating from '@/components/Rating'
 import {
-  HAIR_TYPES_TRANSLATIONS,
   HAIR_LENGTHS,
-  HAIR_LENGTHS_TRANSLATIONS,
   CATEGORIES_URLS
 } from '@/utils/constants'
+import { getLocalizedField, getLocalizedUrl, hasRuTranslation } from '@/utils/i18n'
 import styles from '@/styles/pages.module.css'
 import '@/components/ProductCardSkeleton.module.css'
 import 'slick-carousel/slick/slick.css'
@@ -41,6 +41,9 @@ export default function ProductPage({ product }) {
   const variantsRef = useRef(null)
   const sliderRef = useRef(null)
   const { addToCart } = useCart()
+  const { t, locale } = useTranslation()
+  const productName = getLocalizedField(product, 'display_name', locale)
+  const productDescription = getLocalizedField(product, 'description', locale)
 
   const scrollLeft = () => {
     variantsRef.current?.scrollBy({ left: -89, behavior: 'smooth' })
@@ -61,10 +64,10 @@ export default function ProductPage({ product }) {
   const hairLengthKey = getHairLengthKey(product.length)
   const hairLengthLabel =
   product.length >= 21
-    ? `${product.length} см`
+    ? t('product.lengthCm', { length: product.length })
     : hairLengthKey
-    ? HAIR_LENGTHS_TRANSLATIONS[hairLengthKey]
-    : 'Невідомо';
+    ? t(`hairLengths.${hairLengthKey}`)
+    : t('hairLengths.unknown');
 
   const handleAddToCart = () => {
     try {
@@ -73,6 +76,7 @@ export default function ProductPage({ product }) {
         product_id: product.id,
         variantId: currentVariant.id,
         name: product.display_name,
+        name_ru: product.display_name_ru,
         price: currentVariant.price,
         image: currentVariant.images[0],
         article: product.article,
@@ -92,11 +96,12 @@ export default function ProductPage({ product }) {
 
   const categorySlug = CATEGORIES_URLS[product.category] || 'wigs'
 
-  const pageTitle = `${product.display_name} — купити в Україні | Перуки Тут`
+  const productPath = `/products/${categorySlug}/${product.id}`
+  const pageTitle = t('meta.productTitle', { name: productName })
   const metaDescription = (() => {
-    const clean = product.description?.replace(/\s+/g, ' ').trim()
-    const suffix = `${currentVariant.price} грн. Доставка по Україні.`
-    if (!clean) return `Купити ${product.display_name} — ${suffix}`
+    const clean = productDescription?.replace(/\s+/g, ' ').trim()
+    const suffix = t('meta.productDescriptionSuffix', { price: currentVariant.price })
+    if (!clean) return t('meta.productDescriptionFallback', { name: productName, suffix })
     const maxLength = 155 - suffix.length - 1
     const truncated = clean.length > maxLength
       ? `${clean.slice(0, maxLength).trim()}…`
@@ -107,7 +112,7 @@ export default function ProductPage({ product }) {
   const schemaProduct = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": product.display_name,
+    "name": productName,
     "image": getImageUrlByKey(currentVariant.images?.[0], { width: 600, height: 900 }),
     "brand": {
       "@type": "Brand",
@@ -120,7 +125,7 @@ export default function ProductPage({ product }) {
       "availability": currentVariant.availability
         ? "https://schema.org/InStock"
         : "https://schema.org/OutOfStock",
-      "url": `https://perukytut.com.ua/products/${categorySlug}/${product.id}`
+      "url": getLocalizedUrl(productPath, locale)
     }
   }
 
@@ -128,13 +133,16 @@ export default function ProductPage({ product }) {
     <>
       <Head>
         <title>{pageTitle}</title>
-        <meta name="description" content={metaDescription} />
+        <meta name="description" key="description" content={metaDescription} />
+        <meta property="og:title" key="og:title" content={pageTitle} />
+        <meta property="og:description" key="og:description" content={metaDescription} />
+        <meta property="og:type" key="og:type" content="product" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaProduct) }}
         />
       </Head>
-      <CanonicalLink path={`/products/${categorySlug}/${product.id}`} />
+      <CanonicalLink path={productPath} ruTranslated={hasRuTranslation(product)} />
 
       <div className={`${styles['product-detail']} container`}>
         <div className={styles['product-content']}>
@@ -161,7 +169,7 @@ export default function ProductPage({ product }) {
                       sizes="(max-width: 600px) 160px, 300px"
                       width={600}
                       height={900}
-                      alt={product.display_name}
+                      alt={productName}
                       style={{ width: "100%", height: "auto",aspectRatio: "3/4", maxWidth: "500px", borderRadius: "16px" }}
                       loading="lazy"
                       decoding="async"
@@ -187,7 +195,7 @@ export default function ProductPage({ product }) {
                     >
                       <img
                         src={getImageUrlByKey(variant.images[0], { width: 80, height: 80, quality: 100 })}
-                        alt={`${product.display_name} - ${variant.color}`}
+                        alt={`${productName} - ${variant.color}`}
                         loading="lazy"
                       />
                     </button>
@@ -210,9 +218,9 @@ export default function ProductPage({ product }) {
 
           <div className={styles['product-info']}>
             <div className={styles['characteristic']}>
-              <Breadcrumb categoryId={product.category} productName={product.display_name} />
-              <h1>{product.display_name}</h1>
-              <p className={styles['article']}>Артикул: {product.article}</p>
+              <Breadcrumb categoryId={product.category} productName={productName} />
+              <h1>{productName}</h1>
+              <p className={styles['article']}>{t('product.article', { article: product.article })}</p>
               <a href="#reviews"><Rating product_id={product.id} /></a>
 
               {/* <div className={styles['promo']}>
@@ -221,20 +229,20 @@ export default function ProductPage({ product }) {
                   {Math.round(((currentVariant.promo_price - currentVariant.price) / currentVariant.price) * 100)}%
                 </p>
               </div> */}
-              <p className={styles['price']}>{currentVariant.price} грн</p>
+              <p className={styles['price']}>{currentVariant.price} {t('currency')}</p>
 
               <div className={styles['product-specs']}>
-                <p><strong>Тип волосся:</strong> {HAIR_TYPES_TRANSLATIONS[product.type]}</p>
-                <p><strong>Довжина:</strong> {hairLengthLabel}</p>
-                <p><strong>Колір:</strong> {currentVariant.color}</p>
-                <p><strong>Наявність:</strong> {currentVariant.availability ? 'Є в наявності' : 'Немає в наявності'}</p>
+                <p><strong>{t('product.hairType')}</strong> {t(`hairTypes.${product.type}`)}</p>
+                <p><strong>{t('product.length')}</strong> {hairLengthLabel}</p>
+                <p><strong>{t('product.color')}</strong> {currentVariant.color}</p>
+                <p><strong>{t('product.availability')}</strong> {currentVariant.availability ? t('product.inStock') : t('product.outOfStock')}</p>
               </div>
-              <p className={styles['description']}>{product.description}</p>
+              <p className={styles['description']}>{productDescription}</p>
             </div>
 
             <div className={styles['cart-options']}>
               <div className={styles['quantity-selector']}>
-                <label>Кількість:</label>
+                <label>{t('product.quantity')}</label>
                 <div className={styles['quantity-controls']}>
                   <button onClick={() => setQuantity(Math.max(1, quantity - 1))}>
                     <Icon name="minus" size={12} />
@@ -251,18 +259,18 @@ export default function ProductPage({ product }) {
           onClick={handleAddToCart}
           disabled={!currentVariant.availability}
         >
-          {currentVariant.availability ? 'Додати в кошик' : 'Немає в наявності'}
+          {currentVariant.availability ? t('product.addToCart') : t('product.outOfStock')}
         </button>
       </div>
 
       {addToCartStatus === 'success' && (
         <div className={styles['add-to-cart-success']}>
-          ✅ Товар додано до кошика!
+          {t('product.added')}
         </div>
       )}
       {addToCartStatus === 'error' && (
         <div className={styles['add-to-cart-error']}>
-          ❌ Помилка при додаванні до кошика.<br /> Спробуйте ще раз.
+          {t('product.addError')}<br /> {t('product.tryAgain')}
         </div>
       )}
     </div>

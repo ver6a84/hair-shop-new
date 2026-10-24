@@ -3,9 +3,11 @@
 import { useState, useEffect } from 'react'
 import { baseUrl } from '@/api/index'
 import styles from './Rating.module.css'
+import { useTranslation } from '@/hooks/useTranslation'
 
 export default function Rating({ product_id }) {
   const [rating, setRating] = useState(null)
+  const { t } = useTranslation()
 
   useEffect(() => {
     fetch(`${baseUrl}/rating?product_id=${product_id}`)
@@ -41,14 +43,7 @@ export default function Rating({ product_id }) {
       </div>
       <div className={styles['reviews-count']}>
         {rating.count}
-        {
-          rating.count % 10 === 1 && rating.count % 100 !== 11
-            ? 'відгук'
-            : rating.count % 10 >= 2 && rating.count % 10 <= 4 &&
-              (rating.count % 100 < 10 || rating.count % 100 >= 20)
-            ? 'відгуки'
-            : 'відгуків'
-        }
+        {t('rating.reviews', { count: rating.count })}
       </div>
     </div>
   )

@@ -130,6 +130,12 @@
   }
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .header-cart {
   position: relative;
 }
