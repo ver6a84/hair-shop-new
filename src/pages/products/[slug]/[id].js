@@ -10,9 +10,11 @@ import Breadcrumb from '@/components/BreadCrumb'
 import Slider from 'react-slick'
 import Reviews from '@/components/Reviews'
 import Rating from '@/components/Rating'
+import WigTryOn from '@/components/WigTryOn'
 import {
   HAIR_LENGTHS,
-  CATEGORIES_URLS
+  CATEGORIES_URLS,
+  PRODUCT_CATEGORIES
 } from '@/utils/constants'
 import { getLocalizedField, getLocalizedUrl, hasRuTranslation } from '@/utils/i18n'
 import styles from '@/styles/pages.module.css'
@@ -38,6 +40,7 @@ export default function ProductPage({ product }) {
   const [quantity, setQuantity] = useState(1)
   const [selectedVariant, setSelectedVariant] = useState(0);
   const [addToCartStatus, setAddToCartStatus] = useState(null)
+  const [showTryOn, setShowTryOn] = useState(false)
   const variantsRef = useRef(null)
   const sliderRef = useRef(null)
   const { addToCart } = useCart()
@@ -254,6 +257,7 @@ export default function ProductPage({ product }) {
             </button>
           </div>
         </div>
+        <div className={styles['product-actions']}>
         <button
           className={styles['add-to-cart-btn']}
           onClick={handleAddToCart}
@@ -261,6 +265,15 @@ export default function ProductPage({ product }) {
         >
           {currentVariant.availability ? t('product.addToCart') : t('product.outOfStock')}
         </button>
+        {product.category === PRODUCT_CATEGORIES.WIGS && (
+          <button
+            className={styles['try-on-btn']}
+            onClick={() => setShowTryOn(true)}
+          >
+            {t('tryOn.open')}
+          </button>
+        )}
+        </div>
       </div>
 
       {addToCartStatus === 'success' && (
@@ -278,6 +291,14 @@ export default function ProductPage({ product }) {
 
   <Reviews product_id={product.id} />
 </div>
+
+      {showTryOn && (
+        <WigTryOn
+          productId={product.id}
+          variantId={currentVariant.id}
+          onClose={() => setShowTryOn(false)}
+        />
+      )}
 
     </>
   )

@@ -9,6 +9,20 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
+  "ai": {
+    "binding": "AI"
+  },
+  // limits wig try-on generations per visitor ip (period can only be 10 or 60 seconds)
+  "ratelimits": [
+    {
+      "name": "TRY_ON_LIMITER",
+      "namespace_id": "1001",
+      "simple": {
+        "limit": 3,
+        "period": 60
+      }
+    }
+  ],
   "observability": {
     "logs": {
       "enabled": true,
