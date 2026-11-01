@@ -61,6 +61,7 @@ export default function Footer() {
                 <li><Link href="/delivery-ukraine">{t('footer.delivery')}</Link></li>
                 <li><Link href="/return">{t('footer.return')}</Link></li>
                 <li><Link href="/privacy">{t('footer.privacy')}</Link></li>
+                <li><Link href="/oferta">{t('footer.oferta')}</Link></li>
                 <li><Link href="/yak-obraty-peruku">{t('footer.howToChoose')}</Link></li>
                 <li><Link href="/about">{t('footer.about')}</Link></li>
                 <li><Link href="/contact">{t('footer.contacts')}</Link></li>

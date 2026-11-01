@@ -178,6 +178,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://perukytut.com.ua/oferta</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/oferta"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/oferta"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/oferta"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/oferta</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/oferta"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/oferta"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/oferta"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://perukytut.com.ua/products/wigs</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs"/>
@@ -242,6 +258,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://perukytut.com.ua/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://perukytut.com.ua/products/wigs/97b674a2-f176-4a85-8b68-76290ea610ff</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/97b674a2-f176-4a85-8b68-76290ea610ff"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/97b674a2-f176-4a85-8b68-76290ea610ff"/>
@@ -254,6 +286,54 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/97b674a2-f176-4a85-8b68-76290ea610ff"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/97b674a2-f176-4a85-8b68-76290ea610ff"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/97b674a2-f176-4a85-8b68-76290ea610ff"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -290,38 +370,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/37f2a7b8-11c2-4a79-b5e5-0fa985dbe089"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://perukytut.com.ua/products/tails/f0aac056-395d-48c2-8ad3-e6b85c47799c</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/f0aac056-395d-48c2-8ad3-e6b85c47799c"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/f0aac056-395d-48c2-8ad3-e6b85c47799c"/>
@@ -334,54 +382,6 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/f0aac056-395d-48c2-8ad3-e6b85c47799c"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/f0aac056-395d-48c2-8ad3-e6b85c47799c"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/f0aac056-395d-48c2-8ad3-e6b85c47799c"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/b2aacaec-8f69-4df9-898d-103e1d886f84"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/8f321dc9-b092-4f39-8169-abb7d4f0b200"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -402,22 +402,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/19264e25-ff7e-4179-82f2-6cc1324d8abf"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://perukytut.com.ua/products/wigs/6a5003c6-39ef-4520-89a3-9a8b18a881da</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/6a5003c6-39ef-4520-89a3-9a8b18a881da"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/6a5003c6-39ef-4520-89a3-9a8b18a881da"/>
@@ -430,6 +414,38 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/6a5003c6-39ef-4520-89a3-9a8b18a881da"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/6a5003c6-39ef-4520-89a3-9a8b18a881da"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/6a5003c6-39ef-4520-89a3-9a8b18a881da"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/040aa7f7-1f91-44ee-9e58-1bbdd309e4de"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/affd1c25-0a28-4941-bbf9-1c1bedd48d55"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -466,6 +482,38 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://perukytut.com.ua/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://perukytut.com.ua/products/wigs/8e9659b0-2781-4cff-a304-a65ff586744f</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/8e9659b0-2781-4cff-a304-a65ff586744f"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/8e9659b0-2781-4cff-a304-a65ff586744f"/>
@@ -494,54 +542,6 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/1d2c9f20-ccec-4191-8151-a3c787edb4fd"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/1d2c9f20-ccec-4191-8151-a3c787edb4fd"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/1d2c9f20-ccec-4191-8151-a3c787edb4fd"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/78185cce-0375-4ba9-9674-373181c99a4b"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/c08baa7b-d816-4cec-9566-71bb4d3fa9e0"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -578,22 +578,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://perukytut.com.ua/products/wigs/2a7376ea-9ea1-4e03-bd73-6fe145056751</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/2a7376ea-9ea1-4e03-bd73-6fe145056751"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/2a7376ea-9ea1-4e03-bd73-6fe145056751"/>
@@ -610,34 +594,34 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
+    <loc>https://perukytut.com.ua/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
+    <loc>https://perukytut.com.ua/ru/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/907c6b8d-94ce-4611-af68-8b752756a0fa"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
+    <loc>https://perukytut.com.ua/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
+    <loc>https://perukytut.com.ua/ru/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/8b2d101a-9e7a-4a69-bae6-2ee566604698"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -654,38 +638,6 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/e8317f69-3c9d-41d9-95dc-43b4d5129ba0"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/e8317f69-3c9d-41d9-95dc-43b4d5129ba0"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/e8317f69-3c9d-41d9-95dc-43b4d5129ba0"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -722,114 +674,66 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
+    <loc>https://perukytut.com.ua/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
+    <loc>https://perukytut.com.ua/ru/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/1e041138-5344-4f2e-9bd5-22e51332b783"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
+    <loc>https://perukytut.com.ua/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
+    <loc>https://perukytut.com.ua/ru/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/ab5ff511-6410-42b9-bc5a-34fd8f7d5b5d"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/238368ac-dae3-4639-98dd-433136cc0432</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
+    <loc>https://perukytut.com.ua/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/238368ac-dae3-4639-98dd-433136cc0432</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
+    <loc>https://perukytut.com.ua/ru/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/60def284-2d68-4c74-9251-6e9b5bf369ea"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
+    <loc>https://perukytut.com.ua/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
+    <loc>https://perukytut.com.ua/ru/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/b6930b1a-6d50-4c93-9468-4a92b63fff96"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -850,6 +754,118 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://perukytut.com.ua/products/wigs/238368ac-dae3-4639-98dd-433136cc0432</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/238368ac-dae3-4639-98dd-433136cc0432</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/238368ac-dae3-4639-98dd-433136cc0432"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/4f017540-1356-4b7b-bbb4-f356314088e1"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/604e936a-b7a4-4955-9ad1-f3b6baad99c0"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f3c25490-1f49-4c64-aee9-65162be42373"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/37db76ac-25c0-4992-a308-2cd9bda75677"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/ca10e833-ed81-4d45-a4d1-9e9bd385a5ba"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/3dc5d626-11b1-414c-86b7-3a54128ff6fe"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://perukytut.com.ua/products/wigs/6b84b196-94eb-4ba0-9471-b5a89d57ed33</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/6b84b196-94eb-4ba0-9471-b5a89d57ed33"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/6b84b196-94eb-4ba0-9471-b5a89d57ed33"/>
@@ -866,114 +882,18 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
+    <loc>https://perukytut.com.ua/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
+    <loc>https://perukytut.com.ua/ru/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1010,6 +930,86 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://perukytut.com.ua/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f6d24824-9f17-4e25-9a74-77ba0439177f"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/eb2c96b2-7154-4d00-ac08-d786f3d9440b"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/2d21acf2-8899-466a-93c3-df702628cb14"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/7970dce8-ec21-4dd1-8e23-c75502bf6ad4"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/fd14411c-aa2d-4c5b-a569-ca972833d03a"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://perukytut.com.ua/products/wigs/25e6bd0f-40b0-4f75-8881-476bad019f15</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/25e6bd0f-40b0-4f75-8881-476bad019f15"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/25e6bd0f-40b0-4f75-8881-476bad019f15"/>
@@ -1026,18 +1026,66 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
+    <loc>https://perukytut.com.ua/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/4b90c84d-e796-4bda-b9d4-62bb7582e8cc"/>
+    <loc>https://perukytut.com.ua/ru/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/ff2194fe-5cc8-498d-8970-2b8eb70b84c8"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/d7e60a5a-e826-476c-916c-5ec85b0d5564"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1074,86 +1122,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/9b88b4ad-3e2d-4c19-97ba-928eb85b5e4f"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/0a72f7b8-561a-4807-ae5a-4a5fecb60b25"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/tails/4431668c-4594-435d-b464-0388771a5a3c</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/4431668c-4594-435d-b464-0388771a5a3c</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/toppers/161efca8-62a6-4668-a9b9-064c62783157</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/toppers/161efca8-62a6-4668-a9b9-064c62783157</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://perukytut.com.ua/products/wigs/85b3d98a-baff-4437-b808-5e7991eddfb7</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/85b3d98a-baff-4437-b808-5e7991eddfb7"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/85b3d98a-baff-4437-b808-5e7991eddfb7"/>
@@ -1166,22 +1134,6 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/85b3d98a-baff-4437-b808-5e7991eddfb7"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/85b3d98a-baff-4437-b808-5e7991eddfb7"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/85b3d98a-baff-4437-b808-5e7991eddfb7"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1202,6 +1154,70 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://perukytut.com.ua/products/tails/4431668c-4594-435d-b464-0388771a5a3c</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/tails/4431668c-4594-435d-b464-0388771a5a3c</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/4431668c-4594-435d-b464-0388771a5a3c"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/toppers/161efca8-62a6-4668-a9b9-064c62783157</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/toppers/161efca8-62a6-4668-a9b9-064c62783157</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/161efca8-62a6-4668-a9b9-064c62783157"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/f4d3c673-1020-4ea1-b036-9924451b68fd"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/fe9b1a98-f9ab-47ec-809c-49e4e54cb52b"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://perukytut.com.ua/products/wigs/e09d3e06-1a45-40ea-95c6-d87706cbfbfd</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/e09d3e06-1a45-40ea-95c6-d87706cbfbfd"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/e09d3e06-1a45-40ea-95c6-d87706cbfbfd"/>
@@ -1214,38 +1230,6 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/e09d3e06-1a45-40ea-95c6-d87706cbfbfd"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/e09d3e06-1a45-40ea-95c6-d87706cbfbfd"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/e09d3e06-1a45-40ea-95c6-d87706cbfbfd"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1266,34 +1250,34 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
+    <loc>https://perukytut.com.ua/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
+    <loc>https://perukytut.com.ua/ru/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/tails/5687431c-5239-4b4b-a496-5184519b150b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
+    <loc>https://perukytut.com.ua/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/5687431c-5239-4b4b-a496-5184519b150b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
+    <loc>https://perukytut.com.ua/ru/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/378350ba-1ca3-499f-a944-f38d93a6c80d"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1314,82 +1298,50 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
+    <loc>https://perukytut.com.ua/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/63c2b4ba-e523-4cf3-bfcf-568d2c9f7fb5"/>
+    <loc>https://perukytut.com.ua/ru/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/652537eb-3fc8-4f8e-82c5-ad0c85b32493"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
+    <loc>https://perukytut.com.ua/products/tails/5687431c-5239-4b4b-a496-5184519b150b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
+    <loc>https://perukytut.com.ua/ru/products/tails/5687431c-5239-4b4b-a496-5184519b150b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/5687431c-5239-4b4b-a496-5184519b150b"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
+    <loc>https://perukytut.com.ua/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
+    <loc>https://perukytut.com.ua/ru/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/c572f8d0-caee-4a10-ac52-cb4c939c6d3c"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1410,6 +1362,70 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://perukytut.com.ua/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/43c3c645-2b82-45fb-b5e2-71b3928596b4"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/6e8b3a02-a0cc-4f18-adb1-cce09a038237"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/ccd23439-5c64-442a-87c2-4a5c88bbecc5"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/c97bf92b-8be9-41d8-94a8-2cd0be944180"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://perukytut.com.ua/products/wigs/a1f6a9af-87fa-4f13-aa9e-ccf430a85a85</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/a1f6a9af-87fa-4f13-aa9e-ccf430a85a85"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/a1f6a9af-87fa-4f13-aa9e-ccf430a85a85"/>
@@ -1422,22 +1438,6 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/a1f6a9af-87fa-4f13-aa9e-ccf430a85a85"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/a1f6a9af-87fa-4f13-aa9e-ccf430a85a85"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/a1f6a9af-87fa-4f13-aa9e-ccf430a85a85"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1458,82 +1458,18 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
+    <loc>https://perukytut.com.ua/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
+    <loc>https://perukytut.com.ua/ru/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/1daaf15d-689c-4e11-840e-e171dca9c9d2"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1554,6 +1490,54 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://perukytut.com.ua/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/17c8e3c1-125f-481e-b92f-18b826a0fa16"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/3d03d434-069e-47cd-a42f-fa89f74360a7"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/0d5658de-1eeb-4c56-86c0-1a25bb204cfe"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://perukytut.com.ua/products/tails/b7fe9296-3a96-471a-85d3-fd31d0837486</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/b7fe9296-3a96-471a-85d3-fd31d0837486"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/b7fe9296-3a96-471a-85d3-fd31d0837486"/>
@@ -1570,34 +1554,34 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
+    <loc>https://perukytut.com.ua/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
+    <loc>https://perukytut.com.ua/ru/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/28e9c684-6e3f-4862-af9c-69c229c8edb1"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
+    <loc>https://perukytut.com.ua/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
+    <loc>https://perukytut.com.ua/ru/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/9983b6d1-5ef8-4b6e-8728-013257c73b9e"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1618,18 +1602,50 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
+    <loc>https://perukytut.com.ua/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
+    <loc>https://perukytut.com.ua/ru/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/toppers/4213dc7d-6491-4170-b881-7dab2fd88dc1"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/0358d199-c8e0-4cdb-8b2e-2cbd315d272b"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1650,18 +1666,18 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
+    <loc>https://perukytut.com.ua/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/ru/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/76822fc5-b72d-415a-9200-f33e32a621a9"/>
+    <loc>https://perukytut.com.ua/ru/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/c7a3469c-b454-4f7d-a994-65f66a576299"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1714,22 +1730,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://perukytut.com.ua/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://perukytut.com.ua/ru/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b</loc>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://perukytut.com.ua/products/tails/0161f122-ebce-4f88-a773-0a29b65e9090</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/0161f122-ebce-4f88-a773-0a29b65e9090"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/0161f122-ebce-4f88-a773-0a29b65e9090"/>
@@ -1742,6 +1742,22 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/tails/0161f122-ebce-4f88-a773-0a29b65e9090"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/tails/0161f122-ebce-4f88-a773-0a29b65e9090"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/tails/0161f122-ebce-4f88-a773-0a29b65e9090"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perukytut.com.ua/ru/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://perukytut.com.ua/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://perukytut.com.ua/ru/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://perukytut.com.ua/products/wigs/afa2be1c-664c-410a-a7ba-2386e2d60f5b"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

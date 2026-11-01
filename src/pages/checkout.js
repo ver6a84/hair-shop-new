@@ -258,6 +258,25 @@ export default function CheckoutPage() {
                 {t('checkout.hint')}
               </p>
 
+              <div className={styles['checkout-terms']}>
+                <h3>{t('checkout.paymentTitle')}</h3>
+                <ul>
+                  <li>{t('checkout.paymentCod')}</li>
+                  <li>{t('checkout.paymentCard')}</li>
+                </ul>
+                <h3>{t('checkout.deliveryTitle')}</h3>
+                <p>
+                  {t('checkout.deliveryText')}{' '}
+                  <Link href="/delivery-ukraine">{t('checkout.deliveryMore')}</Link>
+                </p>
+                <p className={styles['checkout-consent']}>
+                  {t('checkout.consentPrefix')}{' '}
+                  <Link href="/return">{t('checkout.consentReturn')}</Link>,{' '}
+                  <Link href="/oferta">{t('checkout.consentOffer')}</Link> {t('checkout.consentAnd')}{' '}
+                  <Link href="/privacy">{t('checkout.consentPrivacy')}</Link>.
+                </p>
+              </div>
+
               {error && (
                 <div className={styles['checkout-error']}>{error}</div>
               )}
