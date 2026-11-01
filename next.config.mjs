@@ -7,6 +7,10 @@ const nextConfig = {
     // no redirects by Accept-Language: google must see the same page on the same url
     localeDetection: false,
   },
+  // the merchant feed is generated from the live api; the url stays the one registered in merchant center
+  async rewrites() {
+    return [{ source: '/merchant-feed.csv', destination: '/api/merchant-feed' }]
+  },
   images: {
     remotePatterns: [
       {

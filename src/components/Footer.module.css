@@ -172,3 +172,10 @@
     flex-direction: row-reverse;
   }
 }
+
+.seller {
+  color: var(--text-light);
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0 var(--spacing-md, 16px) var(--spacing-md, 16px);
+}

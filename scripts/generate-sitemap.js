@@ -26,7 +26,8 @@ const ROUTES = {
   RETURN: '/return',
   CARE: '/care',
   COLORS: '/colors',
-  HOW_TO_CHOOSE: '/yak-obraty-peruku'
+  HOW_TO_CHOOSE: '/yak-obraty-peruku',
+  PRIVACY: '/privacy'
 }
 
 const BASE_URL = 'https://perukytut.com.ua';

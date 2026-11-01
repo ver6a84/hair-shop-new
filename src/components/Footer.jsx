@@ -60,6 +60,7 @@ export default function Footer() {
                 <h4>{t('footer.help')}</h4>
                 <li><Link href="/delivery-ukraine">{t('footer.delivery')}</Link></li>
                 <li><Link href="/return">{t('footer.return')}</Link></li>
+                <li><Link href="/privacy">{t('footer.privacy')}</Link></li>
                 <li><Link href="/yak-obraty-peruku">{t('footer.howToChoose')}</Link></li>
                 <li><Link href="/about">{t('footer.about')}</Link></li>
                 <li><Link href="/contact">{t('footer.contacts')}</Link></li>
@@ -95,8 +96,9 @@ export default function Footer() {
 
       <div className={styles.copyright}>
         <Icon name="copyright" size={18} />
-        <p>{t('footer.copyright')}</p>
+        <p>{t('footer.copyright', { year: new Date().getFullYear() })}</p>
       </div>
+      <p className={styles.seller}>{t('footer.seller')}</p>
     </footer>
   )
 }

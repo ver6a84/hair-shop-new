@@ -82,6 +82,15 @@ export default function Contact() {
           <p>{t('contact.scheduleValue')}</p>
         </div>
       </div>
+
+      <div className={styles['contact-item']}>
+        <Icon name="copyright" />
+        <div>
+          <h3>{t('contact.seller')}</h3>
+          <p>{t('contact.sellerName')}</p>
+          <p>{t('contact.sellerCode')}</p>
+        </div>
+      </div>
     </div>
     </div>
     </>

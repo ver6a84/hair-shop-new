@@ -31,14 +31,17 @@ export async function getServerSideProps(context) {
     return { notFound: true }
   }
 
+  // merchant feed links point at a specific colour: /products/wigs/<id>?variant=<variantId>
+  const variantIndex = product.variants.findIndex(v => v.id === context.query.variant)
+
   return {
-    props: { product }
+    props: { product, initialVariant: Math.max(variantIndex, 0) }
   }
 }
 
-export default function ProductPage({ product }) {
+export default function ProductPage({ product, initialVariant = 0 }) {
   const [quantity, setQuantity] = useState(1)
-  const [selectedVariant, setSelectedVariant] = useState(0);
+  const [selectedVariant, setSelectedVariant] = useState(initialVariant)
   const [addToCartStatus, setAddToCartStatus] = useState(null)
   const [showTryOn, setShowTryOn] = useState(false)
   const variantsRef = useRef(null)
