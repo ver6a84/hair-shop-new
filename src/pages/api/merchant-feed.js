@@ -62,7 +62,7 @@ const toRows = (product) => {
     .filter((variant) => variant.images?.length)
     .map((variant) => {
       const [mainImage, ...restImages] = variant.images
-      const color = variant.color_display_name || ''
+      const color = variant.color_display_name || variant.color || ''
       const material = MATERIAL[product.type] || ''
       const typeParts = [PRODUCT_TYPE[product.category], material].filter(Boolean)
 

@@ -67,6 +67,11 @@ export default function ProductPage({ product, initialVariant = 0 }) {
   }
 
   const currentVariant = product.variants[selectedVariant]
+  // colour name as in the merchant feed, with the supplier code the shop works with
+  const colorLabel = (variant) => {
+    const name = getLocalizedField(variant, 'color_display_name', locale)
+    return name ? `${name} (${variant.color})` : variant.color
+  }
   const hairLengthKey = getHairLengthKey(product.length)
   const hairLengthLabel =
   product.length >= 21
@@ -197,11 +202,11 @@ export default function ProductPage({ product, initialVariant = 0 }) {
                       className={`${styles['variant-thumbnail-product']} ${selectedVariant === index ? styles['active'] : ''} ${!variant.availability ? styles['unavailable'] : ''}`}
                       onClick={() => setSelectedVariant(index)}
                       disabled={!variant.availability}
-                      title={variant.color}
+                      title={colorLabel(variant)}
                     >
                       <img
                         src={getImageUrlByKey(variant.images[0], { width: 80, height: 80, quality: 100 })}
-                        alt={`${productName} - ${variant.color}`}
+                        alt={`${productName} - ${colorLabel(variant)}`}
                         loading="lazy"
                       />
                     </button>
@@ -240,7 +245,7 @@ export default function ProductPage({ product, initialVariant = 0 }) {
               <div className={styles['product-specs']}>
                 <p><strong>{t('product.hairType')}</strong> {t(`hairTypes.${product.type}`)}</p>
                 <p><strong>{t('product.length')}</strong> {hairLengthLabel}</p>
-                <p><strong>{t('product.color')}</strong> {currentVariant.color}</p>
+                <p><strong>{t('product.color')}</strong> {colorLabel(currentVariant)}</p>
                 <p><strong>{t('product.availability')}</strong> {currentVariant.availability ? t('product.inStock') : t('product.outOfStock')}</p>
               </div>
               <p className={styles['description']}>{productDescription}</p>
