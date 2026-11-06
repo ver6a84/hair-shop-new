@@ -49,7 +49,7 @@ export default function Document() {
                 "addressLocality": "Вінниця",
                 "addressRegion": "Вінницька область",
                 "addressCountry": "UA",
-                "postalCode": "21000"
+                "postalCode": "21001"
               },
               "areaServed": {
               "@type": "Country",
