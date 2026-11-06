@@ -125,10 +125,6 @@ export default function ProductPage({ product, initialVariant = 0 }) {
     "@type": "Product",
     "name": productName,
     "image": getImageUrlByKey(currentVariant.images?.[0], { width: 600, height: 900 }),
-    "brand": {
-      "@type": "Brand",
-      "name": "ПЕРУКИ ТУТ"
-    },
     "offers": {
       "@type": "Offer",
       "priceCurrency": "UAH",
